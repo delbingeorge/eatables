@@ -6,9 +6,11 @@ import { useState } from "react";
 import Footer from "./footer";
 
 function CreateAccount() {
+    const [name, setName] = useState("");
+    const [username, setUsername] = useState("");
+    const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [passwordConfirm, setPasswordConfirm] = useState("");
-    const [username, setUsername] = useState("");
 
     return (
         <>
@@ -26,7 +28,7 @@ function CreateAccount() {
                         </button>
                     </div> */}
                 </div>
-                <form className="flex flex-col items-center justify-center pt-24 md:pt-44 md:space-y-4 space-y-2">
+                <form className="flex flex-col items-center justify-center py-16 md:py-36 md:space-y-4 space-y-2">
                     <div className="flex flex-col items-center pb-2 md:pb-4">
                         <Link href="/" as="/" className="text-5xl md:text-6xl font-colvet">
                             eatables.
@@ -34,6 +36,16 @@ function CreateAccount() {
                         <p className="font-poppy text-sm md:text-md">Find your next favorite.</p>
                     </div>
                     <div className="grid md:grid-cols-2 md:grid-rows-2 grid-cols-1 gap-3">
+                        <input
+                            className="border-none outline-none text-xl md:text-2xl px-3 py-3 md:px-24 md:py-4 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s] md:col-span-2"
+                            placeholder="fullname"
+                            maxLength={15}
+                            minLength={4}
+                            type="text"
+                            onChange={(uid) => {
+                                setName(uid.target.value);
+                            }}
+                        />
                         <input
                             className="border-none outline-none text-xl md:text-2xl px-3 py-3 md:px-24 md:py-4 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
                             placeholder="username"
@@ -48,6 +60,9 @@ function CreateAccount() {
                             className="border-none outline-none text-xl md:text-2xl px-6 py-3 md:px-24 md:py-4 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
                             placeholder="email"
                             type="email"
+                            onChange={(uid) => {
+                                setEmail(uid.target.value);
+                            }}
                         />
                         <input
                             className="border-none outline-none text-xl md:text-2xl px-6 py-3 md:px-24 md:py-4 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"

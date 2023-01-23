@@ -4,47 +4,10 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import eatFavImg from "../pages/media/images/eat-fav.png";
+import userAvatar from "../pages/media/images/userAvatar.png";
+import Saved from "./Saved";
 
 function UserProfile() {
-    const Saved = [
-        {
-            eatFav: true,
-            bgImg: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-            itemName: "Stick Steak",
-            stars: "1",
-        },
-        {
-            eatFav: true,
-            bgImg: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-            itemName: "Stick Steak",
-            stars: "2",
-        },
-        {
-            eatFav: false,
-            bgImg: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-            itemName: "Stick Steak",
-            stars: "3",
-        },
-        {
-            eatFav: false,
-            bgImg: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-            itemName: "Stick Steak",
-            stars: "4",
-        },
-        {
-            eatFav: true,
-            bgImg: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-            itemName: "Stick Steak",
-            stars: "5",
-        },
-        {
-            eatFav: true,
-            bgImg: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-            itemName: "Stick Steak",
-            stars: "4",
-        },
-    ];
-
     return (
         <div className="bg-img w-full flex flex-col items-center py-4 px-4 md:py-0 md:px-16 outline-none border-none">
             <div className="flex items-center w-full justify-between md:pt-4">
@@ -58,12 +21,14 @@ function UserProfile() {
                 </div>
             </div>
             <div className="flex flex-col items-center justify-center w-full pt-8 md:pt-16">
-                <img
+                <Image
+                    alt="user profile"
+                    width={1080}
                     className="rounded-full border-black border-4 md:border-8 shadow-2xl w-32 h-32 md:w-44 md:h-44 object-cover"
-                    src="https://images.unsplash.com/photo-1568901839061-11e2837cd2b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                    src={userAvatar}
                 />
-                <h1 className="font-poppy text-2xl md:text-3xl font-semibold pt-4 text-center">Mikhael Joseph</h1>
-                <h2 className="font-poppy text-lg md:text-xl font-medium">@mikkeyjo</h2>
+                <h1 className="font-poppy text-2xl md:text-3xl font-semibold pt-4 text-center">Delbin George</h1>
+                <h2 className="font-poppy text-lg md:text-xl font-medium">@delbingeorge</h2>
 
                 <div className="flex items-center space-x-2 py-2 px-8 md:px-20 bg-btn-black rounded-lg text-xl my-3">
                     <FontAwesomeIcon className="text-brand" icon={faFire} />
@@ -88,10 +53,10 @@ function UserProfile() {
                                 backgroundRepeat: "no-repeat",
                             }}
                         >
-                            <div className="flex flex-col">
-                                <Image width={1080} className="w-24" src={eatFavImg} />
+                            <div className="flex flex-col items-center justify-center">
+                                <Image width={1080} className="w-28" src={eatFavImg} />
                                 <div>
-                                    <h1 className="font-poppy font-semibold text-white">{items.itemName}</h1>
+                                    <h1 className="text-xl font-poppy font-medium text-white">{items.itemName}</h1>
 
                                     {items.stars == 1 ? (
                                         <div className="flex items-center justify-center">
