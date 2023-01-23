@@ -6,14 +6,17 @@ import { getPlacesData } from "./api";
 
 function Search() {
     const [places, setPlaces] = useState([]);
+    const [search, setSearch] = useState();
 
     useEffect(() => {
         getPlacesData().then((data) => {
+            navigator.geolocation.getCurrentPosition(function (position) {
+                console.log("Latitude is :", position.coords.latitude);
+                console.log("Longitude is :", position.coords.longitude);
+            });
             setPlaces(data);
         });
     }, []);
-
-    const [search, setSearch] = useState();
 
     return (
         <div className="bg-img min-h-screen flex flex-col items-center  py-4 px-4 md:px-16">
@@ -55,12 +58,6 @@ function Search() {
                             </button>
                         );
                     })}
-                    {/* <button
-                        type="button"
-                        className="py-2 px-4 bg-btn-black capitalize font-poppy text-center text-white rounded-md hover:bg-black duration-300 "
-                    >
-                        Kannur
-                    </button> */}
                 </div>
             </div>
         </div>

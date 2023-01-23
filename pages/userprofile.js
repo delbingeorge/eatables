@@ -1,4 +1,4 @@
-import { faStar, faBookmark, faGear, faFire, faRightFromBracket } from "@fortawesome/free-solid-svg-icons";
+import { faStar, faBookmark, faGear, faFire, faRightFromBracket, faHome } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
@@ -92,22 +92,9 @@ function UserProfile() {
                     className="rounded-full border-black border-4 md:border-8 shadow-2xl w-32 h-32 md:w-44 md:h-44 object-cover"
                     src={userAvatar}
                 />
-                {/* <button
-                    className="bg-brand w-8 h-8 md:w-10 md:h-10 border-dense border-2 rounded-full sticky z-10 top-[165px] right-[110px] md:top-[260px] md:right-[690px] hover:scale-[1.04] even:hover:rotate-[360deg] duration-700 flex items-center justify-center"
-                    type="button"
-                >
-                    <FontAwesomeIcon icon={faGear} />
-                </button> */}
-
                 <h1 className="font-poppy text-2xl md:text-3xl font-semibold pt-4 text-center">Delbin George</h1>
                 <div className="flex space-x-2">
                     <h2 className="font-poppy text-lg md:text-xl font-medium">@delbingeorge</h2>
-                    <button
-                        className="hover:scale-[1.04] even:hover:rotate-[100deg] duration-700 flex items-center justify-center"
-                        type="button"
-                    >
-                        <FontAwesomeIcon icon={faGear} />
-                    </button>
                 </div>
 
                 <div className="flex items-center space-x-2 py-2 px-8 md:px-20 bg-btn-black rounded-lg text-xl my-3">
@@ -186,6 +173,27 @@ function UserProfile() {
                         </button>
                     );
                 })}
+            </div>
+            <div className="sticky w-5/6 md:w-2/6 rounded-lg h-10 md:h-12 bg-btn-black bottom-10 flex items-center justify-around">
+                <Link
+                    href="/search"
+                    as="/search"
+                    className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-2xl"
+                >
+                    <FontAwesomeIcon icon={faHome} />
+                </Link>
+                <button
+                    className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-2xl"
+                    type="button"
+                >
+                    <FontAwesomeIcon icon={faGear} />
+                </button>
+                <button
+                    className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-2xl"
+                    type="button"
+                >
+                    <FontAwesomeIcon icon={faFire} />
+                </button>
             </div>
         </div>
     );
