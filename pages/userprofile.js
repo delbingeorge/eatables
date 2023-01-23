@@ -54,7 +54,7 @@ function UserProfile() {
                             }}
                         >
                             <div className="flex flex-col items-center justify-center">
-                                <Image width={1080} className="w-28" src={eatFavImg} />
+                                <Image width={1080} className="w-28" alt={items.itemName} src={eatFavImg} />
                                 <div>
                                     <h1 className="text-xl font-poppy font-medium text-white">{items.itemName}</h1>
 

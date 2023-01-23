@@ -20,7 +20,7 @@ export default function Home() {
                     <FontAwesomeIcon icon={faArrowRight} />
                 </div>
             </div>
-            <Image className="w-[25rem]" width={1080} src={heyFruits} />
+            <Image className="w-[25rem]" width={1080} alt="Welcome Heros" src={heyFruits} />
         </div>
     );
 }

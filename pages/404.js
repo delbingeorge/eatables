@@ -10,7 +10,7 @@ export default function FourOhFour() {
         <>
             <div className="bg-img min-h-screen flex flex-col items-center justify-center py-4 px-4 md:px-16">
                 {/* <h1 className="text-3xl md:text-9xl font-poppy text-dense font-bold">404</h1> */}
-                <Image width={1080} className="w-[35rem]" src={foodNotFound} />
+                <Image width={1080} className="w-[35rem]" alt="Page Not Found" src={foodNotFound} />
                 {/* <h1 className="text-xl md:text-3xl font-poppy text-dense font-semibold text-center">
                     Hunger strikes,<br></br> but the fridge is empty!
                 </h1>
