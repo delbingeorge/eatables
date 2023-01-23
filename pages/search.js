@@ -2,13 +2,38 @@ import React, { useState, useEffect } from "react";
 import { faUser, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
-import { getPlacesData } from "./api";
+// import { getPlacesData } from "./api";
+import axios from "axios";
 
 // const nearby = ["Kankannady", "Lalbagh", "Kodialbail", "Balalbag", "Jyothi"];
 
 function Search() {
     const [places, setPlaces] = useState([]);
     const [search, setSearch] = useState("");
+
+    const URL = "https://travel-advisor.p.rapidapi.com/restaurants/list-by-latlng";
+
+    const options = {
+        params: {
+            latitude: "12.861454",
+            longitude: "74.851650",
+        },
+        headers: {
+            "X-RapidAPI-Key": "0e97b8c780msh87eb09389299fb4p1b3d66jsn67cc0885f34c",
+            "X-RapidAPI-Host": "travel-advisor.p.rapidapi.com",
+        },
+    };
+
+    const getPlacesData = async () => {
+        try {
+            const {
+                data: { data },
+            } = await axios.get(URL, options);
+            return data;
+        } catch (error) {
+            console.log(error);
+        }
+    };
 
     useEffect(() => {
         getPlacesData().then((data) => {
@@ -44,7 +69,7 @@ function Search() {
                     {places.map((items, key) => {
                         return items.name == undefined ? (
                             ""
-                        ) : items.rating >= 3 ? (
+                        ) : items.rating >= 4.8 ? (
                             <button
                                 key={key}
                                 type="button"

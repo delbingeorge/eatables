@@ -1,0 +1,5066 @@
+[
+    {
+        "location_id": "5326738",
+        "name": "South India Seafood Restaurant",
+        "latitude": "12.858786",
+        "longitude": "74.84923",
+        "num_reviews": "6",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.070566415786743",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "142",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#123 of 372 Restaurants in Mangalore",
+        "distance": "0.3963061111643336",
+        "distance_string": "0.4 km",
+        "bearing": "southwest",
+        "rating": "4.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d5326738-Reviews-South_India_Seafood_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d5326738-South_India_Seafood_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "728956226",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "5",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=728956226#review728956226",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Best food in manglore....",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "phone": "+91 824 244 5433",
+        "address_obj": {
+            "street1": "N G Road",
+            "street2": "Presidium Commercial Complex",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575001"
+        },
+        "address": "N G Road Presidium Commercial Complex, Mangalore 575001 India",
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "10346",
+                "name": "Indian"
+            }
+        ],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "7995284",
+        "name": "Rinku Punjabi Dhaba",
+        "latitude": "12.859517",
+        "longitude": "74.84807",
+        "num_reviews": "2",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.0349478721618652",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "219",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#193 of 372 Restaurants in Mangalore",
+        "distance": "0.4440763497077477",
+        "distance_string": "0.4 km",
+        "bearing": "southwest",
+        "rating": "4.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d7995284-Reviews-Rinku_Punjabi_Dhaba-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d7995284-Rinku_Punjabi_Dhaba-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "568198356",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "5",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=568198356#review568198356",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Good food",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "phone": "+91 824 428 8863",
+        "website": "https://www.facebook.com/rinkupunjabidhabgroup/",
+        "email": "punjabidhabagroup@gmail.com",
+        "address_obj": {
+            "street1": "Nandigudda Rd.",
+            "street2": "Presidency Spectrum Building, Near KMC Hospital, Attavar",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575001"
+        },
+        "address": "Nandigudda Rd. Presidency Spectrum Building, Near KMC Hospital, Attavar, Mangalore 575001 India",
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "10651",
+                "name": "Barbecue"
+            },
+            {
+                "key": "5379",
+                "name": "Chinese"
+            },
+            {
+                "key": "10346",
+                "name": "Indian"
+            }
+        ],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "14953198",
+        "name": "Martins Multi Cuisine Restaurant",
+        "latitude": "12.86168",
+        "longitude": "74.85629",
+        "num_reviews": "0",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "photo": {
+            "images": {
+                "small": {
+                    "width": "150",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-l/1c/53/3d/ef/martin-s-the-best-place.jpg",
+                    "height": "150"
+                },
+                "thumbnail": {
+                    "width": "50",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/1c/53/3d/ef/martin-s-the-best-place.jpg",
+                    "height": "50"
+                },
+                "original": {
+                    "width": "750",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-o/1c/53/3d/ef/martin-s-the-best-place.jpg",
+                    "height": "750"
+                },
+                "large": {
+                    "width": "550",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-p/1c/53/3d/ef/martin-s-the-best-place.jpg",
+                    "height": "550"
+                },
+                "medium": {
+                    "width": "450",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/1c/53/3d/ef/martin-s-the-best-place.jpg",
+                    "height": "450"
+                }
+            },
+            "is_blessed": false,
+            "uploaded_date": "2020-11-15T08:29:53-0500",
+            "caption": "Martin's, the best place to visit for an amazing evening of yummy food and fun.",
+            "id": "475217391",
+            "helpful_votes": "0",
+            "published_date": "2020-11-15T08:29:53-0500",
+            "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+            }
+        },
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "distance": "0.5047635943155598",
+        "distance_string": "0.5 km",
+        "bearing": "east",
+        "is_closed": false,
+        "open_now_text": "Open Now",
+        "is_long_closed": false,
+        "price_level": "",
+        "ride_providers": ["olaCabs"],
+        "description": "Https://www.zomato.com/mangalore/martins-multi-cuisine-restaurant-attavar/info Https://tinyurl.com/y8cfnheq",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d14953198-Reviews-Martins_Multi_Cuisine_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d14953198-Martins_Multi_Cuisine_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [null],
+        "phone": "+91 73386 46111",
+        "website": "https://www.facebook.com/Martins-Multi-Cuisine-Restaurant-894221784082081/",
+        "address_obj": {
+            "street1": "Fr Muller's Road",
+            "street2": "1st Floor, Martin's Hypermarket Building",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "+91 63662 35858"
+        },
+        "address": "Fr Muller's Road 1st Floor, Martin's Hypermarket Building, Mangalore +91 63662 35858 India",
+        "hours": {
+            "week_ranges": [
+                [
+                    {
+                        "open_time": 660,
+                        "close_time": 1380
+                    }
+                ],
+                [
+                    {
+                        "open_time": 660,
+                        "close_time": 1380
+                    }
+                ],
+                [
+                    {
+                        "open_time": 660,
+                        "close_time": 1380
+                    }
+                ],
+                [
+                    {
+                        "open_time": 660,
+                        "close_time": 1380
+                    }
+                ],
+                [
+                    {
+                        "open_time": 660,
+                        "close_time": 1380
+                    }
+                ],
+                [
+                    {
+                        "open_time": 660,
+                        "close_time": 1380
+                    }
+                ],
+                [
+                    {
+                        "open_time": 660,
+                        "close_time": 1380
+                    }
+                ]
+            ],
+            "timezone": "Asia/Kolkata"
+        },
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "5379",
+                "name": "Chinese"
+            },
+            {
+                "key": "10346",
+                "name": "Indian"
+            },
+            {
+                "key": "10646",
+                "name": "Fast Food"
+            },
+            {
+                "key": "10668",
+                "name": "Grill"
+            },
+            {
+                "key": "11739",
+                "name": "Central Asian"
+            }
+        ],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "12829395",
+        "name": "The Old Bison",
+        "latitude": "12.861791",
+        "longitude": "74.84695",
+        "num_reviews": "4",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "photo": {
+            "images": {
+                "small": {
+                    "width": "150",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-l/10/8a/23/67/quaint-and-cozy-the-perfect.jpg",
+                    "height": "150"
+                },
+                "thumbnail": {
+                    "width": "50",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/10/8a/23/67/quaint-and-cozy-the-perfect.jpg",
+                    "height": "50"
+                },
+                "original": {
+                    "width": "2000",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-o/10/8a/23/67/quaint-and-cozy-the-perfect.jpg",
+                    "height": "1333"
+                },
+                "large": {
+                    "width": "1024",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-w/10/8a/23/67/quaint-and-cozy-the-perfect.jpg",
+                    "height": "682"
+                },
+                "medium": {
+                    "width": "550",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/10/8a/23/67/quaint-and-cozy-the-perfect.jpg",
+                    "height": "367"
+                }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2017-09-04T07:00:30-0400",
+            "caption": "Quaint and cozy, the perfect getaway",
+            "id": "277488487",
+            "helpful_votes": "0",
+            "published_date": "2017-09-04T07:00:30-0400",
+            "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+            }
+        },
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.02489972114563",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "257",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#230 of 372 Restaurants in Mangalore",
+        "distance": "0.5113055568679641",
+        "distance_string": "0.5 km",
+        "bearing": "west",
+        "rating": "3.5",
+        "is_closed": false,
+        "open_now_text": "Open Now",
+        "is_long_closed": false,
+        "price_level": "",
+        "ride_providers": ["olaCabs"],
+        "description": "Welcome to Mangaluru's finest retro bar and continental restaurant. The Old Bison is the only place in Mangalore that serves seafood lovers, authentic continental seafood delicacies including crab sticks, prawn platters, crab cocktails and more! We will take you back to the old days when the music was better, food was tastier and cocktails were unique! We offer an array of special shooters inspired from flavours all over the world! So come on over and give The Old Bison a whirl! A good time is our guarantee!",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d12829395-Reviews-The_Old_Bison-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d12829395-The_Old_Bison-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "680393665",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=680393665#review680393665",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Great  place to eat",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "phone": "+91 81058 14357",
+        "website": "https://www.facebook.com/theoldbison/",
+        "email": "theoldbison@gmail.com",
+        "address_obj": {
+            "street1": "Nandigudda Road",
+            "street2": "Opp Big Bazaar, Attavar",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575001"
+        },
+        "address": "Nandigudda Road Opp Big Bazaar, Attavar, Mangalore 575001 India",
+        "hours": {
+            "week_ranges": [
+                [
+                    {
+                        "open_time": 600,
+                        "close_time": 1410
+                    }
+                ],
+                [
+                    {
+                        "open_time": 720,
+                        "close_time": 1410
+                    }
+                ],
+                [
+                    {
+                        "open_time": 720,
+                        "close_time": 1410
+                    }
+                ],
+                [
+                    {
+                        "open_time": 720,
+                        "close_time": 1410
+                    }
+                ],
+                [
+                    {
+                        "open_time": 720,
+                        "close_time": 1410
+                    }
+                ],
+                [
+                    {
+                        "open_time": 720,
+                        "close_time": 1410
+                    }
+                ],
+                [
+                    {
+                        "open_time": 720,
+                        "close_time": 1410
+                    }
+                ]
+            ],
+            "timezone": "Asia/Kolkata"
+        },
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "10346",
+                "name": "Indian"
+            },
+            {
+                "key": "10640",
+                "name": "Bar"
+            },
+            {
+                "key": "10648",
+                "name": "International"
+            },
+            {
+                "key": "10670",
+                "name": "Pub"
+            },
+            {
+                "key": "10676",
+                "name": "Diner"
+            },
+            {
+                "key": "10683",
+                "name": "Gastropub"
+            }
+        ],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "297630",
+        "ad_position": "inline1",
+        "ad_size": "8X8",
+        "doubleclick_zone": "as.india.karnataka",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "detail": "0",
+        "page_type": "restaurants",
+        "mob_ptype": "app_restaurants"
+    },
+    {
+        "location_id": "3963258",
+        "name": "Chefs Restaurants",
+        "latitude": "12.86438",
+        "longitude": "74.84723",
+        "num_reviews": "17",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "photo": {
+            "images": {
+                "small": {
+                    "width": "150",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-l/03/f8/10/1b/chefs-restaurants.jpg",
+                    "height": "150"
+                },
+                "thumbnail": {
+                    "width": "50",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/03/f8/10/1b/chefs-restaurants.jpg",
+                    "height": "50"
+                },
+                "original": {
+                    "width": "1800",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-o/03/f8/10/1b/chefs-restaurants.jpg",
+                    "height": "1200"
+                },
+                "large": {
+                    "width": "1024",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-w/03/f8/10/1b/chefs-restaurants.jpg",
+                    "height": "682"
+                },
+                "medium": {
+                    "width": "550",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/03/f8/10/1b/chefs-restaurants.jpg",
+                    "height": "366"
+                }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2013-05-29T11:42:41-0400",
+            "caption": "C X Chinese Restaurant Mannagudda",
+            "id": "66588699",
+            "helpful_votes": "2",
+            "published_date": "2013-05-29T11:42:41-0400",
+            "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+            }
+        },
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.052713632583618",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "172",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#151 of 372 Restaurants in Mangalore",
+        "distance": "0.5794534332115087",
+        "distance_string": "0.6 km",
+        "bearing": "northwest",
+        "rating": "3.5",
+        "is_closed": false,
+        "open_now_text": "Open Now",
+        "is_long_closed": false,
+        "price_level": "$$ - $$$",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d3963258-Reviews-Chefs_Restaurants-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d3963258-Chefs_Restaurants-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [
+            {
+                "key": "sit_down",
+                "name": "Sit down"
+            }
+        ],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "439173280",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=439173280#review439173280",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Dinner",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "phone": "+91 824 222 1707",
+        "email": "chefsrestaurants@gmail.com",
+        "address_obj": {
+            "street1": "3 Nanthoor Road",
+            "street2": "No.15-13-752/1, Kadri",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575005"
+        },
+        "address": "3 Nanthoor Road No.15-13-752/1, Kadri, Mangalore 575005 India",
+        "hours": {
+            "week_ranges": [
+                [
+                    {
+                        "open_time": 690,
+                        "close_time": 1350
+                    }
+                ],
+                [
+                    {
+                        "open_time": 690,
+                        "close_time": 1350
+                    }
+                ],
+                [
+                    {
+                        "open_time": 690,
+                        "close_time": 1350
+                    }
+                ],
+                [
+                    {
+                        "open_time": 690,
+                        "close_time": 1350
+                    }
+                ],
+                [
+                    {
+                        "open_time": 690,
+                        "close_time": 1350
+                    }
+                ],
+                [
+                    {
+                        "open_time": 690,
+                        "close_time": 1350
+                    }
+                ],
+                [
+                    {
+                        "open_time": 690,
+                        "close_time": 1350
+                    }
+                ]
+            ],
+            "timezone": "Asia/Kolkata"
+        },
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "5379",
+                "name": "Chinese"
+            },
+            {
+                "key": "10641",
+                "name": "Pizza"
+            },
+            {
+                "key": "10648",
+                "name": "International"
+            },
+            {
+                "key": "10659",
+                "name": "Asian"
+            },
+            {
+                "key": "10660",
+                "name": "Thai"
+            },
+            {
+                "key": "10697",
+                "name": "Vegan Options"
+            }
+        ],
+        "dietary_restrictions": [
+            {
+                "key": "10697",
+                "name": "Vegan Options"
+            }
+        ],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "5326014",
+        "name": "Kairali Restaurant",
+        "latitude": "12.863253",
+        "longitude": "74.84632",
+        "num_reviews": "31",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "photo": {
+            "images": {
+                "small": {
+                    "width": "150",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-l/09/b3/c4/92/excellent-quality-chicken.jpg",
+                    "height": "150"
+                },
+                "thumbnail": {
+                    "width": "50",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/09/b3/c4/92/excellent-quality-chicken.jpg",
+                    "height": "50"
+                },
+                "original": {
+                    "width": "1224",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-o/09/b3/c4/92/excellent-quality-chicken.jpg",
+                    "height": "1632"
+                },
+                "large": {
+                    "width": "550",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-p/09/b3/c4/92/excellent-quality-chicken.jpg",
+                    "height": "733"
+                },
+                "medium": {
+                    "width": "338",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/09/b3/c4/92/excellent-quality-chicken.jpg",
+                    "height": "450"
+                }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2015-12-08T02:54:38-0500",
+            "caption": "Excellent quality chicken biryani",
+            "id": "162776210",
+            "helpful_votes": "4",
+            "published_date": "2015-12-08T02:54:38-0500",
+            "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+            }
+        },
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.0414834022521973",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "196",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#173 of 372 Restaurants in Mangalore",
+        "distance": "0.6115026675140622",
+        "distance_string": "0.6 km",
+        "bearing": "west",
+        "rating": "3.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$ - $$$",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d5326014-Reviews-Kairali_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d5326014-Kairali_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "680394592",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=680394592#review680394592",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Kerala food",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "phone": "+91 824 244 8621",
+        "address_obj": {
+            "street1": "Kairali N G Road",
+            "street2": "Residency Park Hotel, Near Noor Masjid, Attavara",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575001"
+        },
+        "address": "Kairali N G Road Residency Park Hotel, Near Noor Masjid, Attavara, Mangalore 575001 India",
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "10346",
+                "name": "Indian"
+            },
+            {
+                "key": "10659",
+                "name": "Asian"
+            }
+        ],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "23605909",
+        "name": "Janatha Lunch Home",
+        "latitude": "12.866564",
+        "longitude": "74.854355",
+        "num_reviews": "0",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "distance": "0.640134584161971",
+        "distance_string": "0.6 km",
+        "bearing": "northeast",
+        "is_closed": false,
+        "open_now_text": "Open Now",
+        "is_long_closed": false,
+        "price_level": "",
+        "ride_providers": ["olaCabs"],
+        "description": "Experience the Coastal Cuisine in Mangalore",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d23605909-Reviews-Janatha_Lunch_Home-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d23605909-Janatha_Lunch_Home-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [null],
+        "phone": "+91 90086 18888",
+        "address_obj": {
+            "street1": "Opposite Fieldstar",
+            "street2": "Near Highland Hospital,kankanady",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575002"
+        },
+        "address": "Opposite Fieldstar Near Highland Hospital,kankanady, Mangalore 575002 India",
+        "hours": {
+            "week_ranges": [
+                [
+                    {
+                        "open_time": 1140,
+                        "close_time": 1320
+                    }
+                ],
+                [
+                    {
+                        "open_time": 1140,
+                        "close_time": 1320
+                    }
+                ],
+                [
+                    {
+                        "open_time": 1140,
+                        "close_time": 1320
+                    }
+                ],
+                [
+                    {
+                        "open_time": 1140,
+                        "close_time": 1320
+                    }
+                ],
+                [
+                    {
+                        "open_time": 1140,
+                        "close_time": 1320
+                    }
+                ],
+                [
+                    {
+                        "open_time": 1140,
+                        "close_time": 1320
+                    }
+                ],
+                [
+                    {
+                        "open_time": 1140,
+                        "close_time": 1320
+                    }
+                ]
+            ],
+            "timezone": "Asia/Kolkata"
+        },
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "10643",
+                "name": "Seafood"
+            }
+        ],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "10546779",
+        "name": "The Cafe Laundrette",
+        "latitude": "12.86331",
+        "longitude": "74.85724",
+        "num_reviews": "8",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "photo": {
+            "images": {
+                "small": {
+                    "width": "150",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-l/0f/60/ee/89/img-20170517-wa0014-largejpg.jpg",
+                    "height": "150"
+                },
+                "thumbnail": {
+                    "width": "50",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/0f/60/ee/89/img-20170517-wa0014-largejpg.jpg",
+                    "height": "50"
+                },
+                "original": {
+                    "width": "1080",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-o/0f/60/ee/89/img-20170517-wa0014-largejpg.jpg",
+                    "height": "809"
+                },
+                "large": {
+                    "width": "550",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/0f/60/ee/89/img-20170517-wa0014-largejpg.jpg",
+                    "height": "412"
+                },
+                "medium": {
+                    "width": "250",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-f/0f/60/ee/89/img-20170517-wa0014-largejpg.jpg",
+                    "height": "187"
+                }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2017-05-25T08:16:09-0400",
+            "caption": "",
+            "id": "258010761",
+            "helpful_votes": "0",
+            "published_date": "2017-05-25T08:16:09-0400",
+            "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+            }
+        },
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.105874538421631",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "90",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#75 of 372 Restaurants in Mangalore",
+        "distance": "0.6409735706113414",
+        "distance_string": "0.6 km",
+        "bearing": "east",
+        "rating": "4.5",
+        "is_closed": false,
+        "open_now_text": "Open Now",
+        "is_long_closed": false,
+        "price_level": "",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d10546779-Reviews-The_Cafe_Laundrette-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d10546779-The_Cafe_Laundrette-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "680393913",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=680393913#review680393913",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Nice cafe",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "phone": "+91 824 298 2322",
+        "website": "https://www.facebook.com/TH%C3%89-CAF%C3%89-Laundrette-880374228697885/info/?entry_point=page_nav_about_item&tab=page_info",
+        "address_obj": {
+            "street1": "Father Mullers Road",
+            "street2": "Ground Floor, Hassan Heritage",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575002"
+        },
+        "address": "Father Mullers Road Ground Floor, Hassan Heritage, Mangalore 575002 India",
+        "hours": {
+            "week_ranges": [
+                [
+                    {
+                        "open_time": 600,
+                        "close_time": 1350
+                    }
+                ],
+                [
+                    {
+                        "open_time": 600,
+                        "close_time": 1350
+                    }
+                ],
+                [
+                    {
+                        "open_time": 600,
+                        "close_time": 1350
+                    }
+                ],
+                [
+                    {
+                        "open_time": 600,
+                        "close_time": 1350
+                    }
+                ],
+                [
+                    {
+                        "open_time": 600,
+                        "close_time": 1350
+                    }
+                ],
+                [
+                    {
+                        "open_time": 600,
+                        "close_time": 1350
+                    }
+                ],
+                [
+                    {
+                        "open_time": 600,
+                        "close_time": 1350
+                    }
+                ]
+            ],
+            "timezone": "Asia/Kolkata"
+        },
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "5998496",
+        "name": "Chefs Xinlai Chinese Restaurant",
+        "latitude": "12.86566",
+        "longitude": "74.84743",
+        "num_reviews": "15",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "photo": {
+            "images": {
+                "small": {
+                    "width": "250",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-f/0a/f5/ea/09/img-20160223-143135-largejpg.jpg",
+                    "height": "141"
+                },
+                "thumbnail": {
+                    "width": "50",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/0a/f5/ea/09/img-20160223-143135-largejpg.jpg",
+                    "height": "50"
+                },
+                "original": {
+                    "width": "2048",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-o/0a/f5/ea/09/img-20160223-143135-largejpg.jpg",
+                    "height": "1152"
+                },
+                "large": {
+                    "width": "1024",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-w/0a/f5/ea/09/img-20160223-143135-largejpg.jpg",
+                    "height": "576"
+                },
+                "medium": {
+                    "width": "550",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/0a/f5/ea/09/img-20160223-143135-largejpg.jpg",
+                    "height": "309"
+                }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2016-04-20T22:50:29-0400",
+            "caption": "",
+            "id": "183888393",
+            "helpful_votes": "1",
+            "published_date": "2016-04-20T22:50:29-0400",
+            "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+            }
+        },
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.0909945964813232",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "109",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#92 of 372 Restaurants in Mangalore",
+        "distance": "0.6547148898309331",
+        "distance_string": "0.7 km",
+        "bearing": "northwest",
+        "rating": "4.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$ - $$$",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d5998496-Reviews-Chefs_Xinlai_Chinese_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d5998496-Chefs_Xinlai_Chinese_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "645798294",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=645798294#review645798294",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Burgers with a difference",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "phone": "+91 824 242 1707",
+        "address_obj": {
+            "street1": "Chefs Sturrock Road",
+            "street2": "Near Casa Grande, Attavar",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575001"
+        },
+        "address": "Chefs Sturrock Road Near Casa Grande, Attavar, Mangalore 575001 India",
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "5379",
+                "name": "Chinese"
+            },
+            {
+                "key": "10659",
+                "name": "Asian"
+            }
+        ],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "5327049",
+        "name": "Kokoko Fried Chicken",
+        "latitude": "12.86566",
+        "longitude": "74.84743",
+        "num_reviews": "3",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.0045080184936523",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "343",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#314 of 372 Restaurants in Mangalore",
+        "distance": "0.6547148898309331",
+        "distance_string": "0.7 km",
+        "bearing": "northwest",
+        "rating": "3.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$ - $$$",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d5327049-Reviews-Kokoko_Fried_Chicken-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d5327049-Kokoko_Fried_Chicken-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "411685250",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "5",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=411685250#review411685250",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "HOME KITCHEN IS NEAR",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "phone": "2443166",
+        "address_obj": {
+            "street1": "Sturrock Road",
+            "street2": "Opposite To Kmc Hostel, Attavara",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575001"
+        },
+        "address": "Sturrock Road Opposite To Kmc Hostel, Attavara, Mangalore 575001 India",
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "297630",
+        "ad_position": "inline2",
+        "ad_size": "8X8",
+        "doubleclick_zone": "as.india.karnataka",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "detail": "0",
+        "page_type": "restaurants",
+        "mob_ptype": "app_restaurants"
+    },
+    {
+        "location_id": "5908258",
+        "name": "R V Fast Food",
+        "latitude": "12.86692",
+        "longitude": "74.85413",
+        "num_reviews": "1",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.0109550952911377",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "338",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#309 of 372 Restaurants in Mangalore",
+        "distance": "0.6655559083691884",
+        "distance_string": "0.7 km",
+        "bearing": "northeast",
+        "rating": "4.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$ - $$$",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d5908258-Reviews-R_V_Fast_Food-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d5908258-R_V_Fast_Food-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "434518234",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=434518234#review434518234",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Good  sandwiches and  samosa",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "phone": "4254092",
+        "address_obj": {
+            "street1": "16 4 315 15, APS Complex",
+            "street2": "Highland, Falnir",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575001"
+        },
+        "address": "16 4 315 15, APS Complex Highland, Falnir, Mangalore 575001 India",
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "23609397",
+        "name": "Janatha Lunch Home",
+        "latitude": "12.866064",
+        "longitude": "74.8556",
+        "num_reviews": "3",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "photo": {
+            "images": {
+                "small": {
+                    "width": "150",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-l/23/4f/94/1e/caption.jpg",
+                    "height": "150"
+                },
+                "thumbnail": {
+                    "width": "50",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/23/4f/94/1e/caption.jpg",
+                    "height": "50"
+                },
+                "original": {
+                    "width": "1280",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/23/4f/94/1e/caption.jpg",
+                    "height": "584"
+                },
+                "large": {
+                    "width": "1024",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-w/23/4f/94/1e/caption.jpg",
+                    "height": "467"
+                },
+                "medium": {
+                    "width": "550",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/23/4f/94/1e/caption.jpg",
+                    "height": "251"
+                }
+            },
+            "is_blessed": false,
+            "uploaded_date": "2022-05-04T00:31:20-0400",
+            "caption": "",
+            "id": "592417822",
+            "helpful_votes": "0",
+            "published_date": "2022-05-04T00:31:20-0400",
+            "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+            }
+        },
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.0361015796661377",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "215",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#189 of 372 Restaurants in Mangalore",
+        "distance": "0.6686696761056538",
+        "distance_string": "0.7 km",
+        "bearing": "northeast",
+        "rating": "3.5",
+        "is_closed": false,
+        "open_now_text": "Open Now",
+        "is_long_closed": false,
+        "price_level": "",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d23609397-Reviews-Janatha_Lunch_Home-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d23609397-Janatha_Lunch_Home-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [null],
+        "phone": "+91 90086 18888",
+        "address_obj": {
+            "street1": "17-23-1601, Kankanady, Mangalore, Karnataka",
+            "street2": "Opposite Highland Hospital",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575002"
+        },
+        "address": "17-23-1601, Kankanady, Mangalore, Karnataka Opposite Highland Hospital, Mangalore 575002 India",
+        "hours": {
+            "week_ranges": [
+                [
+                    {
+                        "open_time": 1140,
+                        "close_time": 1320
+                    }
+                ],
+                [
+                    {
+                        "open_time": 1140,
+                        "close_time": 1320
+                    }
+                ],
+                [
+                    {
+                        "open_time": 1140,
+                        "close_time": 1320
+                    }
+                ],
+                [
+                    {
+                        "open_time": 1140,
+                        "close_time": 1320
+                    }
+                ],
+                [
+                    {
+                        "open_time": 1140,
+                        "close_time": 1320
+                    }
+                ],
+                [
+                    {
+                        "open_time": 1140,
+                        "close_time": 1320
+                    }
+                ],
+                [
+                    {
+                        "open_time": 1140,
+                        "close_time": 1320
+                    }
+                ]
+            ],
+            "timezone": "Asia/Kolkata"
+        },
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "10643",
+                "name": "Seafood"
+            }
+        ],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "5922412",
+        "name": "Sabka Dine",
+        "latitude": "12.867",
+        "longitude": "74.85405",
+        "num_reviews": "3",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.0204215049743652",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "277",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#250 of 372 Restaurants in Mangalore",
+        "distance": "0.6700222463593153",
+        "distance_string": "0.7 km",
+        "bearing": "northeast",
+        "rating": "3.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d5922412-Reviews-Sabka_Dine-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d5922412-Sabka_Dine-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "434514947",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=434514947#review434514947",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Small eating  place",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "phone": "2432975",
+        "address_obj": {
+            "street1": "BMK Commercial Centre",
+            "street2": "Highland, Belvue",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575002"
+        },
+        "address": "BMK Commercial Centre Highland, Belvue, Mangalore 575002 India",
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "5326342",
+        "name": "The Moghul Treat Restaurant",
+        "latitude": "12.8679",
+        "longitude": "74.85207",
+        "num_reviews": "2",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.0184340476989746",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "289",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#260 of 372 Restaurants in Mangalore",
+        "distance": "0.718891235331114",
+        "distance_string": "0.7 km",
+        "bearing": "north",
+        "rating": "4.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d5326342-Reviews-The_Moghul_Treat_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d5326342-The_Moghul_Treat_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "431247054",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=431247054#review431247054",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Good",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "phone": "2439348",
+        "address_obj": {
+            "street1": "Falnir",
+            "street2": "Near Island Hospital, Jeppu",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575002"
+        },
+        "address": "Falnir Near Island Hospital, Jeppu, Mangalore 575002 India",
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "10346",
+                "name": "Indian"
+            }
+        ],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "23708783",
+        "name": "Fourbee's Cafe",
+        "latitude": "12.867978",
+        "longitude": "74.85056",
+        "num_reviews": "0",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "distance": "0.7355517744069549",
+        "distance_string": "0.7 km",
+        "bearing": "north",
+        "is_closed": false,
+        "open_now_text": "Open Now",
+        "is_long_closed": false,
+        "price_level": "",
+        "ride_providers": ["olaCabs"],
+        "description": "One time stop for all your cravings",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d23708783-Reviews-Fourbee_s_Cafe-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d23708783-Fourbee_s_Cafe-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [null],
+        "phone": "+91 74115 94266",
+        "email": "fourbeescafe@gmai.com",
+        "address_obj": {
+            "street1": "Falnir",
+            "street2": "Lulu Centre",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575001"
+        },
+        "address": "Falnir Lulu Centre, Mangalore 575001 India",
+        "hours": {
+            "week_ranges": [
+                [
+                    {
+                        "open_time": 660,
+                        "close_time": 1335
+                    }
+                ],
+                [
+                    {
+                        "open_time": 660,
+                        "close_time": 1335
+                    }
+                ],
+                [
+                    {
+                        "open_time": 660,
+                        "close_time": 1335
+                    }
+                ],
+                [
+                    {
+                        "open_time": 660,
+                        "close_time": 1335
+                    }
+                ],
+                [
+                    {
+                        "open_time": 660,
+                        "close_time": 1335
+                    }
+                ],
+                [
+                    {
+                        "open_time": 660,
+                        "close_time": 1335
+                    }
+                ],
+                [
+                    {
+                        "open_time": 660,
+                        "close_time": 1335
+                    }
+                ]
+            ],
+            "timezone": "Asia/Kolkata"
+        },
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "10642",
+                "name": "Cafe"
+            }
+        ],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "8332825",
+        "name": "Grand Rasoi",
+        "latitude": "12.8681",
+        "longitude": "74.85098",
+        "num_reviews": "16",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "photo": {
+            "images": {
+                "small": {
+                    "width": "250",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-f/07/db/97/cb/getlstd-property-photo.jpg",
+                    "height": "141"
+                },
+                "thumbnail": {
+                    "width": "50",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/07/db/97/cb/getlstd-property-photo.jpg",
+                    "height": "50"
+                },
+                "original": {
+                    "width": "3264",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-o/07/db/97/cb/getlstd-property-photo.jpg",
+                    "height": "1836"
+                },
+                "large": {
+                    "width": "1024",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-w/07/db/97/cb/getlstd-property-photo.jpg",
+                    "height": "576"
+                },
+                "medium": {
+                    "width": "550",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/07/db/97/cb/getlstd-property-photo.jpg",
+                    "height": "309"
+                }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2015-05-10T04:24:08-0400",
+            "caption": "getlstd_property_photo",
+            "id": "131831755",
+            "helpful_votes": "1",
+            "published_date": "2015-05-10T04:24:08-0400",
+            "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+            }
+        },
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.08856201171875",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "111",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#94 of 372 Restaurants in Mangalore",
+        "distance": "0.7431820218526631",
+        "distance_string": "0.7 km",
+        "bearing": "north",
+        "rating": "3.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$ - $$$",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d8332825-Reviews-Grand_Rasoi-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d8332825-Grand_Rasoi-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "552658302",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "5",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=552658302#review552658302",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Interesting Experience",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "phone": "+91 82482 78000",
+        "website": "http://www.grandrasoi.com",
+        "address_obj": {
+            "street1": "Mother Theresa Rd",
+            "street2": "Windsor Shopping Plaza, Falnir Ward, Attavar Village, Kankanady",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": null
+        },
+        "address": "Mother Theresa Rd Windsor Shopping Plaza, Falnir Ward, Attavar Village, Kankanady, Mangalore India",
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "10346",
+                "name": "Indian"
+            },
+            {
+                "key": "10751",
+                "name": "Halal"
+            }
+        ],
+        "dietary_restrictions": [
+            {
+                "key": "10751",
+                "name": "Halal"
+            }
+        ],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "297630",
+        "ad_position": "inline3",
+        "ad_size": "8X8",
+        "doubleclick_zone": "as.india.karnataka",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "detail": "0",
+        "page_type": "restaurants",
+        "mob_ptype": "app_restaurants"
+    },
+    {
+        "location_id": "5997968",
+        "name": "Zee Fast Food Restaurant",
+        "latitude": "12.8681",
+        "longitude": "74.85098",
+        "num_reviews": "2",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.0215508937835693",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "272",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#245 of 372 Restaurants in Mangalore",
+        "distance": "0.7431820218526631",
+        "distance_string": "0.7 km",
+        "bearing": "north",
+        "rating": "4.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d5997968-Reviews-Zee_Fast_Food_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d5997968-Zee_Fast_Food_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "449759100",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=449759100#review449759100",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Fast food..",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "phone": "+91 824 244 4480",
+        "address_obj": {
+            "street1": "Falnir Road",
+            "street2": "Near Platinum Theatre",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575002"
+        },
+        "address": "Falnir Road Near Platinum Theatre, Mangalore 575002 India",
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "3421395",
+        "name": "Danish Creek",
+        "latitude": "12.8681",
+        "longitude": "74.85098",
+        "num_reviews": "8",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "photo": {
+            "images": {
+                "small": {
+                    "width": "150",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-l/0b/c9/6c/9b/photo0jpg.jpg",
+                    "height": "150"
+                },
+                "thumbnail": {
+                    "width": "50",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/0b/c9/6c/9b/photo0jpg.jpg",
+                    "height": "50"
+                },
+                "original": {
+                    "width": "1536",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-o/0b/c9/6c/9b/photo0jpg.jpg",
+                    "height": "2048"
+                },
+                "large": {
+                    "width": "550",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-p/0b/c9/6c/9b/photo0jpg.jpg",
+                    "height": "733"
+                },
+                "medium": {
+                    "width": "338",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/0b/c9/6c/9b/photo0jpg.jpg",
+                    "height": "450"
+                }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2016-06-30T00:51:46-0400",
+            "caption": "",
+            "id": "197749915",
+            "helpful_votes": "0",
+            "published_date": "2016-06-30T00:51:46-0400",
+            "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+            }
+        },
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.046410322189331",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "179",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#157 of 372 Restaurants in Mangalore",
+        "distance": "0.7431820218526631",
+        "distance_string": "0.7 km",
+        "bearing": "north",
+        "rating": "3.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d3421395-Reviews-Danish_Creek-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d3421395-Danish_Creek-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "752759306",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=752759306#review752759306",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Good broosted",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "address_obj": {
+            "street1": "Opp Unity Hospital",
+            "street2": "Falnir",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": null
+        },
+        "address": "Opp Unity Hospital Falnir, Mangalore India",
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "10346",
+                "name": "Indian"
+            }
+        ],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "7260060",
+        "name": "Guthu Hospitality Bar & Restaurant",
+        "latitude": "12.867679",
+        "longitude": "74.84903",
+        "num_reviews": "19",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "photo": {
+            "images": {
+                "small": {
+                    "width": "150",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-l/0c/71/db/d8/photo4jpg.jpg",
+                    "height": "150"
+                },
+                "thumbnail": {
+                    "width": "50",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/0c/71/db/d8/photo4jpg.jpg",
+                    "height": "50"
+                },
+                "original": {
+                    "width": "2048",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-o/0c/71/db/d8/photo4jpg.jpg",
+                    "height": "2048"
+                },
+                "large": {
+                    "width": "550",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-p/0c/71/db/d8/photo4jpg.jpg",
+                    "height": "550"
+                },
+                "medium": {
+                    "width": "450",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/0c/71/db/d8/photo4jpg.jpg",
+                    "height": "450"
+                }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2016-08-09T05:33:06-0400",
+            "caption": "",
+            "id": "208788440",
+            "helpful_votes": "0",
+            "published_date": "2016-08-09T05:33:06-0400",
+            "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+            }
+        },
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.0410947799682617",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "198",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#174 of 372 Restaurants in Mangalore",
+        "distance": "0.7486993225922512",
+        "distance_string": "0.7 km",
+        "bearing": "north",
+        "rating": "3.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$ - $$$",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d7260060-Reviews-Guthu_Hospitality_Bar_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d7260060-Guthu_Hospitality_Bar_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "403108650",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=403108650#review403108650",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Very very good",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "phone": "+91 824 242 0225",
+        "address_obj": {
+            "street1": "Pailand Plaza Falnir Road",
+            "street2": "3rd Floor",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575002"
+        },
+        "address": "Pailand Plaza Falnir Road 3rd Floor, Mangalore 575002 India",
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "10346",
+                "name": "Indian"
+            }
+        ],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "21393966",
+        "name": "Pizza Valley",
+        "latitude": "12.868145",
+        "longitude": "74.85078",
+        "num_reviews": "1",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "photo": {
+            "images": {
+                "small": {
+                    "width": "150",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-l/1d/5a/ed/00/turkish-pide.jpg",
+                    "height": "150"
+                },
+                "thumbnail": {
+                    "width": "50",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/1d/5a/ed/00/turkish-pide.jpg",
+                    "height": "50"
+                },
+                "original": {
+                    "width": "1280",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/5a/ed/00/turkish-pide.jpg",
+                    "height": "1280"
+                },
+                "large": {
+                    "width": "550",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-p/1d/5a/ed/00/turkish-pide.jpg",
+                    "height": "550"
+                },
+                "medium": {
+                    "width": "450",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/1d/5a/ed/00/turkish-pide.jpg",
+                    "height": "450"
+                }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2021-07-18T03:34:56-0400",
+            "caption": "Turkish pide",
+            "id": "492498176",
+            "helpful_votes": "0",
+            "published_date": "2021-07-18T03:34:56-0400",
+            "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+            }
+        },
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.043440103530884",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "193",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#170 of 372 Restaurants in Mangalore",
+        "distance": "0.7506285099365622",
+        "distance_string": "0.8 km",
+        "bearing": "north",
+        "rating": "5.0",
+        "is_closed": false,
+        "open_now_text": "Open Now",
+        "is_long_closed": false,
+        "price_level": "$",
+        "price": "$150 - $350",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d21393966-Reviews-Pizza_Valley-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d21393966-Pizza_Valley-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [
+            {
+                "key": "sit_down",
+                "name": "Sit down"
+            }
+        ],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [null],
+        "phone": "+91 72596 31047",
+        "website": "http://pizzavalley.ml",
+        "email": "pizzavalleycafe@gmail.com",
+        "address_obj": {
+            "street1": "Mother Theresa Road",
+            "street2": "Lulu Center",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575002"
+        },
+        "address": "Mother Theresa Road Lulu Center, Mangalore 575002 India",
+        "hours": {
+            "week_ranges": [
+                [
+                    {
+                        "open_time": 780,
+                        "close_time": 1320
+                    }
+                ],
+                [
+                    {
+                        "open_time": 780,
+                        "close_time": 1320
+                    }
+                ],
+                [
+                    {
+                        "open_time": 780,
+                        "close_time": 1320
+                    }
+                ],
+                [
+                    {
+                        "open_time": 780,
+                        "close_time": 1320
+                    }
+                ],
+                [
+                    {
+                        "open_time": 780,
+                        "close_time": 1320
+                    }
+                ],
+                [
+                    {
+                        "open_time": 780,
+                        "close_time": 1320
+                    }
+                ],
+                [
+                    {
+                        "open_time": 780,
+                        "close_time": 1320
+                    }
+                ]
+            ],
+            "timezone": "Asia/Kolkata"
+        },
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "10641",
+                "name": "Pizza"
+            },
+            {
+                "key": "4617",
+                "name": "Italian"
+            },
+            {
+                "key": "10663",
+                "name": "Turkish"
+            }
+        ],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "13385752",
+        "name": "Baker's Treat From Mariam's Kitchen",
+        "latitude": "12.867934",
+        "longitude": "74.84971",
+        "num_reviews": "5",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "photo": {
+            "images": {
+                "small": {
+                    "width": "150",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-l/13/5b/5c/e0/took-this-photo-as-soon.jpg",
+                    "height": "150"
+                },
+                "thumbnail": {
+                    "width": "50",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/13/5b/5c/e0/took-this-photo-as-soon.jpg",
+                    "height": "50"
+                },
+                "original": {
+                    "width": "817",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-o/13/5b/5c/e0/took-this-photo-as-soon.jpg",
+                    "height": "613"
+                },
+                "large": {
+                    "width": "550",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/13/5b/5c/e0/took-this-photo-as-soon.jpg",
+                    "height": "413"
+                },
+                "medium": {
+                    "width": "250",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-f/13/5b/5c/e0/took-this-photo-as-soon.jpg",
+                    "height": "188"
+                }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2018-06-20T02:25:29-0400",
+            "caption": "Took this photo as soon as I reached. Finallllllly, the day had come for me to visit!",
+            "id": "324754656",
+            "helpful_votes": "0",
+            "published_date": "2018-06-20T02:25:29-0400",
+            "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+            }
+        },
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.067338705062866",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "146",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#127 of 372 Restaurants in Mangalore",
+        "distance": "0.7512405501222779",
+        "distance_string": "0.8 km",
+        "bearing": "north",
+        "rating": "4.0",
+        "is_closed": false,
+        "open_now_text": "Open Now",
+        "is_long_closed": false,
+        "price_level": "$$ - $$$",
+        "price": "$100 - $200",
+        "ride_providers": ["olaCabs"],
+        "description": "Baker's Treat From Mariam's Kitchen is a bakery cafe is located within the city but exists in a world of it's own, the perfect place to escape to, visited quite frequently by the youth pf the city it offers good food, board games and great company.We have been told on many occasions that we give off some good vibes, we invite you to check them out yourself.",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d13385752-Reviews-Baker_s_Treat_From_Mariam_s_Kitchen-Mangalore_Dakshina_Kannada_District_Karnatak.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d13385752-Baker_s_Treat_From_Mariam_s_Kitchen-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [
+            {
+                "key": "cafe",
+                "name": "Café"
+            }
+        ],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "645447962",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "5",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=645447962#review645447962",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Awesome food ",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "phone": "+91 91486 74505",
+        "website": "https://www.facebook.com/frommariamskitchen/",
+        "email": "bakerstreat.mariam@gmail.com",
+        "address_obj": {
+            "street1": "Mother Theresa Road",
+            "street2": "Falnir Road",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575001"
+        },
+        "address": "Mother Theresa Road Falnir Road, Mangalore 575001 India",
+        "hours": {
+            "week_ranges": [
+                [
+                    {
+                        "open_time": 480,
+                        "close_time": 1350
+                    }
+                ],
+                [
+                    {
+                        "open_time": 570,
+                        "close_time": 1350
+                    }
+                ],
+                [
+                    {
+                        "open_time": 570,
+                        "close_time": 1350
+                    }
+                ],
+                [
+                    {
+                        "open_time": 570,
+                        "close_time": 1350
+                    }
+                ],
+                [
+                    {
+                        "open_time": 570,
+                        "close_time": 1350
+                    }
+                ],
+                [
+                    {
+                        "open_time": 570,
+                        "close_time": 1350
+                    }
+                ],
+                [
+                    {
+                        "open_time": 570,
+                        "close_time": 1350
+                    }
+                ]
+            ],
+            "timezone": "Asia/Kolkata"
+        },
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "4617",
+                "name": "Italian"
+            },
+            {
+                "key": "10642",
+                "name": "Cafe"
+            },
+            {
+                "key": "10660",
+                "name": "Thai"
+            },
+            {
+                "key": "10648",
+                "name": "International"
+            },
+            {
+                "key": "10671",
+                "name": "Fusion"
+            }
+        ],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "5238066",
+        "name": "Hotel Chicken Hut",
+        "latitude": "12.86436",
+        "longitude": "74.85792",
+        "num_reviews": "6",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "photo": {
+            "images": {
+                "small": {
+                    "width": "250",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-f/08/74/96/06/hotel-chicken-hut.jpg",
+                    "height": "137"
+                },
+                "thumbnail": {
+                    "width": "50",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/08/74/96/06/hotel-chicken-hut.jpg",
+                    "height": "50"
+                },
+                "original": {
+                    "width": "1011",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-o/08/74/96/06/hotel-chicken-hut.jpg",
+                    "height": "554"
+                },
+                "large": {
+                    "width": "1011",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-o/08/74/96/06/hotel-chicken-hut.jpg",
+                    "height": "554"
+                },
+                "medium": {
+                    "width": "550",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/08/74/96/06/hotel-chicken-hut.jpg",
+                    "height": "301"
+                }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2015-07-26T01:46:08-0400",
+            "caption": "chicken hut",
+            "id": "141858310",
+            "helpful_votes": "0",
+            "published_date": "2015-07-26T08:27:44-0400",
+            "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+            }
+        },
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.0539286136627197",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "168",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#147 of 372 Restaurants in Mangalore",
+        "distance": "0.7534005672383146",
+        "distance_string": "0.8 km",
+        "bearing": "northeast",
+        "rating": "4.0",
+        "is_closed": false,
+        "open_now_text": "Open Now",
+        "is_long_closed": false,
+        "price_level": "$$ - $$$",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d5238066-Reviews-Hotel_Chicken_Hut-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d5238066-Hotel_Chicken_Hut-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "680394975",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=680394975#review680394975",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Mouth watering  chicken items",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "phone": "+91 824 243 0404",
+        "address_obj": {
+            "street1": "Valencia Park No 5",
+            "street2": "Kankanady, Velencia",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575002"
+        },
+        "address": "Valencia Park No 5 Kankanady, Velencia, Mangalore 575002 India",
+        "hours": {
+            "week_ranges": [
+                [
+                    {
+                        "open_time": 720,
+                        "close_time": 1380
+                    }
+                ],
+                [
+                    {
+                        "open_time": 720,
+                        "close_time": 1380
+                    }
+                ],
+                [
+                    {
+                        "open_time": 720,
+                        "close_time": 1380
+                    }
+                ],
+                [
+                    {
+                        "open_time": 720,
+                        "close_time": 1380
+                    }
+                ],
+                [
+                    {
+                        "open_time": 720,
+                        "close_time": 1380
+                    }
+                ],
+                [
+                    {
+                        "open_time": 720,
+                        "close_time": 1380
+                    }
+                ],
+                [
+                    {
+                        "open_time": 720,
+                        "close_time": 1380
+                    }
+                ]
+            ],
+            "timezone": "Asia/Kolkata"
+        },
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "19334557",
+        "name": "Albatros",
+        "latitude": "12.86447",
+        "longitude": "74.85798",
+        "num_reviews": "1",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalapuram, Thiruvananthapuram District, Kerala",
+        "awards": [],
+        "doubleclick_zone": "as.india.kerala",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.0304348468780518",
+        "ranking_geo": "Mangalapuram",
+        "ranking_geo_id": "12435442",
+        "ranking_position": "1",
+        "ranking_denominator": "2",
+        "ranking_category": "restaurant",
+        "ranking": "#1 of 2 Restaurants in Mangalapuram",
+        "distance": "0.764665040851452",
+        "distance_string": "0.8 km",
+        "bearing": "northeast",
+        "rating": "5.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g12435442-d19334557-Reviews-Albatros-Mangalapuram_Thiruvananthapuram_District_Kerala.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g12435442-d19334557-Albatros-Mangalapuram_Thiruvananthapuram_District_Kerala.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalapuram",
+                "abbrv": null,
+                "location_id": "12435442"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Thiruvananthapuram District",
+                "abbrv": null,
+                "location_id": "12080450"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Kerala",
+                "abbrv": null,
+                "location_id": "297631"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalapuram",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "722833476",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "5",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=722833476#review722833476",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Nice pastry shop!!",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "phone": "+91 824 243 2612",
+        "address_obj": {
+            "street1": "Valencia",
+            "street2": "opp Roshini Nilaya",
+            "city": "Mangalapuram",
+            "state": "Kerala",
+            "country": "India",
+            "postalcode": "575002"
+        },
+        "address": "Valencia opp Roshini Nilaya, Mangalapuram 575002 India",
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "24858645",
+        "name": "The Asian Patio (tap)",
+        "latitude": "12.867616",
+        "longitude": "74.84832",
+        "num_reviews": "1",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "photo": {
+            "images": {
+                "small": {
+                    "width": "250",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-f/25/e7/2a/6c/caption.jpg",
+                    "height": "141"
+                },
+                "thumbnail": {
+                    "width": "50",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/25/e7/2a/6c/caption.jpg",
+                    "height": "50"
+                },
+                "original": {
+                    "width": "1280",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/25/e7/2a/6c/caption.jpg",
+                    "height": "720"
+                },
+                "large": {
+                    "width": "1024",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-w/25/e7/2a/6c/caption.jpg",
+                    "height": "576"
+                },
+                "medium": {
+                    "width": "550",
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/25/e7/2a/6c/caption.jpg",
+                    "height": "309"
+                }
+            },
+            "is_blessed": false,
+            "uploaded_date": "2022-09-17T03:18:02-0400",
+            "caption": "",
+            "id": "635906668",
+            "helpful_votes": "0",
+            "published_date": "2022-09-17T03:18:02-0400",
+            "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+            }
+        },
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.0435574054718018",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "192",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#169 of 372 Restaurants in Mangalore",
+        "distance": "0.7749440938668961",
+        "distance_string": "0.8 km",
+        "bearing": "northwest",
+        "rating": "5.0",
+        "is_closed": false,
+        "open_now_text": "Open Now",
+        "is_long_closed": false,
+        "price_level": "",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d24858645-Reviews-The_Asian_Patio_tap-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d24858645-The_Asian_Patio_tap-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [null],
+        "phone": "+91 87922 31333",
+        "email": "theasianpatio@gmail.com",
+        "address_obj": {
+            "street1": "Karuna Pride, Falnir Road",
+            "street2": null,
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575001"
+        },
+        "address": "Karuna Pride, Falnir Road, Mangalore 575001 India",
+        "hours": {
+            "week_ranges": [
+                [
+                    {
+                        "open_time": 1110,
+                        "close_time": 1410
+                    }
+                ],
+                [
+                    {
+                        "open_time": 1110,
+                        "close_time": 1410
+                    }
+                ],
+                [
+                    {
+                        "open_time": 1110,
+                        "close_time": 1410
+                    }
+                ],
+                [
+                    {
+                        "open_time": 1110,
+                        "close_time": 1410
+                    }
+                ],
+                [
+                    {
+                        "open_time": 1110,
+                        "close_time": 1410
+                    }
+                ],
+                [
+                    {
+                        "open_time": 1110,
+                        "close_time": 1410
+                    }
+                ],
+                [
+                    {
+                        "open_time": 1110,
+                        "close_time": 1410
+                    }
+                ]
+            ],
+            "timezone": "Asia/Kolkata"
+        },
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "10659",
+                "name": "Asian"
+            }
+        ],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "23148039",
+        "name": "The Baklava Co.",
+        "latitude": "12.865037",
+        "longitude": "74.84506",
+        "num_reviews": "0",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "distance": "0.8181530384263648",
+        "distance_string": "0.8 km",
+        "bearing": "northwest",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$",
+        "price": "$250 - $750",
+        "ride_providers": ["olaCabs"],
+        "description": "The Baklava Co. brings to you the finest assortment of traditional delicacies from the furnace of Levant. Our authentic sweet dishes are loaded with richness taking you on a delightful and tasty journey.",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d23148039-Reviews-The_Baklava_Co-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d23148039-The_Baklava_Co-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [
+            {
+                "key": "sit_down",
+                "name": "Sit down"
+            }
+        ],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [null],
+        "phone": "+91 82968 60013",
+        "website": "http://www.thebaklavacompany.com",
+        "email": "tbc.mlr@gmail.com",
+        "address_obj": {
+            "street1": "Attavar Rd",
+            "street2": "Skycourt, Ground Floor Attavara Hampankatta",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575001"
+        },
+        "address": "Attavar Rd Skycourt, Ground Floor Attavara Hampankatta, Mangalore 575001 India",
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "10626",
+                "name": "Lebanese"
+            },
+            {
+                "key": "10649",
+                "name": "Mediterranean"
+            },
+            {
+                "key": "10663",
+                "name": "Turkish"
+            },
+            {
+                "key": "10664",
+                "name": "Greek"
+            },
+            {
+                "key": "10687",
+                "name": "Middle Eastern"
+            },
+            {
+                "key": "11744",
+                "name": "Arabic"
+            }
+        ],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "5326497",
+        "name": "Fish Thali Restaurant",
+        "latitude": "12.85367",
+        "longitude": "74.85341",
+        "num_reviews": "7",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.0695137977600098",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "144",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#125 of 372 Restaurants in Mangalore",
+        "distance": "0.8871629300941997",
+        "distance_string": "0.9 km",
+        "bearing": "south",
+        "rating": "4.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$ - $$$",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d5326497-Reviews-Fish_Thali_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d5326497-Fish_Thali_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "680392954",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=680392954#review680392954",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Good coastal sea food delight",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "address_obj": {
+            "street1": "Jeppu Marnamikatta Road",
+            "street2": "Opera Plaza Shantinagara, Capitanio",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575002"
+        },
+        "address": "Jeppu Marnamikatta Road Opera Plaza Shantinagara, Capitanio, Mangalore 575002 India",
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "10643",
+                "name": "Seafood"
+            }
+        ],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "15607609",
+        "name": "Xara RestoCafe",
+        "latitude": "12.865803",
+        "longitude": "74.85878",
+        "num_reviews": "0",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "distance": "0.9128642327588633",
+        "distance_string": "0.9 km",
+        "bearing": "northeast",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$",
+        "price": "$50 - $500",
+        "ride_providers": ["olaCabs"],
+        "description": "Grab a cuppa hot brewing coffee or chill out with some mock-tails at the new resto cafe in town : Xara pronounced zaarah. The resto cafe boasts of continental menu, Italian dishes, Mexican, breakfast menu, egg delicacies and more. The decor is classy to give the customers a new experience. A beautiful wall is done up with a Black colour with the logo in gold is an attractive selfie corner.",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d15607609-Reviews-Xara_RestoCafe-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d15607609-Xara_RestoCafe-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [
+            {
+                "key": "sit_down",
+                "name": "Sit down"
+            }
+        ],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [null],
+        "phone": "+91 824 426 7899",
+        "website": "https://www.facebook.com/XaraRestoCafe/",
+        "email": "xaramangaloreofficial@gmail.com",
+        "address_obj": {
+            "street1": "Father Muller's Rd",
+            "street2": "Hasan Heritage Building, Upper Ground Floor, Next to ICICI Bank, Valencia, Kankanady",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575002"
+        },
+        "address": "Father Muller's Rd Hasan Heritage Building, Upper Ground Floor, Next to ICICI Bank, Valencia, Kankanady, Mangalore 575002 India",
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "4617",
+                "name": "Italian"
+            },
+            {
+                "key": "5110",
+                "name": "Mexican"
+            },
+            {
+                "key": "10346",
+                "name": "Indian"
+            },
+            {
+                "key": "10642",
+                "name": "Cafe"
+            },
+            {
+                "key": "10659",
+                "name": "Asian"
+            }
+        ],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "5327638",
+        "name": "Sizzlers",
+        "latitude": "12.86476",
+        "longitude": "74.84311",
+        "num_reviews": "7",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.0542807579040527",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "166",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#145 of 372 Restaurants in Mangalore",
+        "distance": "0.9967297523982972",
+        "distance_string": "1 km",
+        "bearing": "west",
+        "rating": "4.0",
+        "is_closed": false,
+        "open_now_text": "Open Now",
+        "is_long_closed": false,
+        "price_level": "",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d5327638-Reviews-Sizzlers-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d5327638-Sizzlers-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "601839114",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=601839114#review601839114",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Good",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "phone": "4262155",
+        "address_obj": {
+            "street1": "Trinity Complex Attavara",
+            "street2": "Near Railway Station",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575001"
+        },
+        "address": "Trinity Complex Attavara Near Railway Station, Mangalore 575001 India",
+        "hours": {
+            "week_ranges": [
+                [
+                    {
+                        "open_time": 690,
+                        "close_time": 1380
+                    }
+                ],
+                [
+                    {
+                        "open_time": 690,
+                        "close_time": 1380
+                    }
+                ],
+                [
+                    {
+                        "open_time": 690,
+                        "close_time": 1380
+                    }
+                ],
+                [
+                    {
+                        "open_time": 690,
+                        "close_time": 1380
+                    }
+                ],
+                [
+                    {
+                        "open_time": 690,
+                        "close_time": 1380
+                    }
+                ],
+                [
+                    {
+                        "open_time": 690,
+                        "close_time": 1380
+                    }
+                ],
+                [
+                    {
+                        "open_time": 690,
+                        "close_time": 1380
+                    }
+                ]
+            ],
+            "timezone": "Asia/Kolkata"
+        },
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "5326335",
+        "name": "Hotel Rajkamal Restaurant",
+        "latitude": "12.86781",
+        "longitude": "74.84497",
+        "num_reviews": "5",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "2.8433635234832764",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "364",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#335 of 372 Restaurants in Mangalore",
+        "distance": "1.012465786434492",
+        "distance_string": "1 km",
+        "bearing": "northwest",
+        "rating": "2.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d5326335-Reviews-Hotel_Rajkamal_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d5326335-Hotel_Rajkamal_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [null],
+        "phone": "2422171",
+        "address_obj": {
+            "street1": "Falnir",
+            "street2": "Near Milagres Church",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575001"
+        },
+        "address": "Falnir Near Milagres Church, Mangalore 575001 India",
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [
+            {
+                "key": "10346",
+                "name": "Indian"
+            }
+        ],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    },
+    {
+        "location_id": "5326752",
+        "name": "Hotel Yashraj Restaurant",
+        "latitude": "12.8696",
+        "longitude": "74.84745",
+        "num_reviews": "4",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Mangalore, Dakshina Kannada District, Karnataka",
+        "awards": [],
+        "doubleclick_zone": "as.india.karnataka",
+        "preferred_map_engine": "default",
+        "raw_ranking": "3.0203399658203125",
+        "ranking_geo": "Mangalore",
+        "ranking_geo_id": "297630",
+        "ranking_position": "280",
+        "ranking_denominator": "365",
+        "ranking_category": "restaurant",
+        "ranking": "#252 of 372 Restaurants in Mangalore",
+        "distance": "1.0145373211704916",
+        "distance_string": "1 km",
+        "bearing": "northwest",
+        "rating": "3.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$",
+        "ride_providers": ["olaCabs"],
+        "description": "",
+        "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297630-d5326752-Reviews-Hotel_Yashraj_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "write_review": "https://www.tripadvisor.com/UserReview-g297630-d5326752-Hotel_Yashraj_Restaurant-Mangalore_Dakshina_Kannada_District_Karnataka.html",
+        "ancestors": [
+            {
+                "subcategory": [
+                    {
+                        "key": "city",
+                        "name": "City"
+                    }
+                ],
+                "name": "Mangalore",
+                "abbrv": null,
+                "location_id": "297630"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "district",
+                        "name": "District"
+                    }
+                ],
+                "name": "Dakshina Kannada District",
+                "abbrv": null,
+                "location_id": "12393116"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "state",
+                        "name": "State"
+                    }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+            },
+            {
+                "subcategory": [
+                    {
+                        "key": "country",
+                        "name": "Country"
+                    }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+            }
+        ],
+        "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+        },
+        "subcategory": [],
+        "parent_display_name": "Mangalore",
+        "is_jfy_enabled": false,
+        "nearest_metro_station": [],
+        "reviews": [
+            {
+                "id": "439494503",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2023-01-23T10:28:44-05:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=439494503#review439494503",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Bar ",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+            }
+        ],
+        "phone": "2423130",
+        "address_obj": {
+            "street1": "Yashraj Kudumbi Garden Road",
+            "street2": "Opposite Malbar Hill Building, K R Building, Falnir",
+            "city": "Mangalore",
+            "state": "Karnataka",
+            "country": "India",
+            "postalcode": "575001"
+        },
+        "address": "Yashraj Kudumbi Garden Road Opposite Malbar Hill Building, K R Building, Falnir, Mangalore 575001 India",
+        "is_candidate_for_contact_info_suppression": false,
+        "cuisine": [],
+        "dietary_restrictions": [],
+        "establishment_types": [
+            {
+                "key": "10591",
+                "name": "Restaurants"
+            }
+        ]
+    }
+]

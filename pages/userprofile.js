@@ -97,7 +97,7 @@ function UserProfile() {
                     <h2 className="font-poppy text-lg md:text-xl font-medium">@delbingeorge</h2>
                 </div>
 
-                <div className="flex items-center space-x-2 py-2 px-8 md:px-20 bg-btn-black rounded-lg text-xl my-3">
+                <div className="flex items-center space-x-2 py-2 px-8 md:px-20 bg-dense rounded-xl text-xl my-3">
                     <FontAwesomeIcon className="text-brand" icon={faFire} />
                     <h3 className="font-poppy text-white font-medium text-sm md:text-lg">100 contributions</h3>
                 </div>
@@ -174,22 +174,22 @@ function UserProfile() {
                     );
                 })}
             </div>
-            <div className="sticky w-5/6 md:w-2/6 rounded-lg h-10 md:h-12 bg-btn-black bottom-10 flex items-center justify-around">
+            <div className="sticky w-5/6 md:w-1/6 rounded-full h-10 md:h-12 bg-dense bottom-10 flex items-center justify-around">
                 <Link
                     href="/search"
                     as="/search"
-                    className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-2xl"
+                    className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-xl"
                 >
                     <FontAwesomeIcon icon={faHome} />
                 </Link>
                 <button
-                    className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-2xl"
+                    className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-xl"
                     type="button"
                 >
                     <FontAwesomeIcon icon={faGear} />
                 </button>
                 <button
-                    className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-2xl"
+                    className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-xl"
                     type="button"
                 >
                     <FontAwesomeIcon icon={faFire} />
