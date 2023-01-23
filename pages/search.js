@@ -69,7 +69,7 @@ function Search() {
                     {places.map((items, key) => {
                         return items.name == undefined ? (
                             ""
-                        ) : items.rating >= 4.8 ? (
+                        ) : items.rating >= 4 ? (
                             <button
                                 key={key}
                                 type="button"
