@@ -2,21 +2,17 @@ import React, { useState, useEffect } from "react";
 import { faUser, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
-// import { getPlacesData } from "./api";
 import axios from "axios";
 
-// const nearby = ["Kankannady", "Lalbagh", "Kodialbail", "Balalbag", "Jyothi"];
-
 function Search() {
+    const URL = "https://travel-advisor.p.rapidapi.com/restaurants/list-by-latlng";
     const [places, setPlaces] = useState([]);
     const [search, setSearch] = useState("");
 
-    const URL = "https://travel-advisor.p.rapidapi.com/restaurants/list-by-latlng";
-
     const options = {
         params: {
-            latitude: "12.861454",
-            longitude: "74.851650",
+            latitude: "12.873561",
+            longitude: "74.845844",
         },
         headers: {
             "X-RapidAPI-Key": "0e97b8c780msh87eb09389299fb4p1b3d66jsn67cc0885f34c",
@@ -37,7 +33,6 @@ function Search() {
 
     useEffect(() => {
         getPlacesData().then((data) => {
-            console.log(data);
             setPlaces(data);
         });
     }, []);
