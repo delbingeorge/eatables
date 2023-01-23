@@ -19,7 +19,7 @@ export default function tos() {
                         <p className="font-normal text-lg mb-4">
                             <span className="font-semibold pr-2">User Content: </span>Users are solely responsible for the
                             content they post on the app, including reviews, ratings, and photos. The app reserves the right
-                            to remove any content that violates the app's terms of service or is deemed inappropriate.
+                            to remove any content that violates the apps terms of service or is deemed inappropriate.
                         </p>
                         <p className="font-normal text-lg mb-4">
                             <span className="font-semibold pr-2">Copyright: </span>Users agree not to post content that
