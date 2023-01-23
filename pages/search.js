@@ -1,10 +1,18 @@
 import { faUser, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
-import React, { useState } from "react";
-const nearby = ["Kankannady", "Lalbagh", "Kodialbail", "Balalbag", "Jyothi"];
+import React, { useState, useEffect } from "react";
+import { getPlacesData } from "./api";
 
 function Search() {
+    const [places, setPlaces] = useState([]);
+
+    useEffect(() => {
+        getPlacesData().then((data) => {
+            setPlaces(data);
+        });
+    }, []);
+
     const [search, setSearch] = useState();
 
     return (
@@ -28,23 +36,31 @@ function Search() {
                     type="text"
                 />
                 <h1 className="text-left font-poppy">
-                    nearby locations <FontAwesomeIcon icon={faLocationDot} />
+                    nearby hotels <FontAwesomeIcon icon={faLocationDot} />
                 </h1>
                 <div className="grid grid-cols-1 md:grid-cols-5 gap-2">
-                    {nearby.map((items, key) => {
-                        return (
+                    {places.map((items, key) => {
+                        return items.name == undefined ? (
+                            ""
+                        ) : (
                             <button
-                                type="button"
-                                className="py-2 px-4 bg-btn-black capitalize font-poppy text-center text-white rounded-md hover:bg-black duration-300 "
                                 key={key}
+                                type="button"
+                                className="py-2 px-4 bg-btn-black capitalize font-poppy text-center text-white rounded-md hover:bg-black duration-300"
                                 onClick={() => {
-                                    setSearch(items);
+                                    setSearch(items.name);
                                 }}
                             >
-                                {items}
+                                {items.name}
                             </button>
                         );
                     })}
+                    {/* <button
+                        type="button"
+                        className="py-2 px-4 bg-btn-black capitalize font-poppy text-center text-white rounded-md hover:bg-black duration-300 "
+                    >
+                        Kannur
+                    </button> */}
                 </div>
             </div>
         </div>

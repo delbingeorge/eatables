@@ -1,4 +1,4 @@
-import { faStar, faBookmark, faFire, faRightFromBracket } from "@fortawesome/free-solid-svg-icons";
+import { faStar, faBookmark, faGear, faFire, faRightFromBracket } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
@@ -92,8 +92,23 @@ function UserProfile() {
                     className="rounded-full border-black border-4 md:border-8 shadow-2xl w-32 h-32 md:w-44 md:h-44 object-cover"
                     src={userAvatar}
                 />
+                {/* <button
+                    className="bg-brand w-8 h-8 md:w-10 md:h-10 border-dense border-2 rounded-full sticky z-10 top-[165px] right-[110px] md:top-[260px] md:right-[690px] hover:scale-[1.04] even:hover:rotate-[360deg] duration-700 flex items-center justify-center"
+                    type="button"
+                >
+                    <FontAwesomeIcon icon={faGear} />
+                </button> */}
+
                 <h1 className="font-poppy text-2xl md:text-3xl font-semibold pt-4 text-center">Delbin George</h1>
-                <h2 className="font-poppy text-lg md:text-xl font-medium">@delbingeorge</h2>
+                <div className="flex space-x-2">
+                    <h2 className="font-poppy text-lg md:text-xl font-medium">@delbingeorge</h2>
+                    <button
+                        className="hover:scale-[1.04] even:hover:rotate-[100deg] duration-700 flex items-center justify-center"
+                        type="button"
+                    >
+                        <FontAwesomeIcon icon={faGear} />
+                    </button>
+                </div>
 
                 <div className="flex items-center space-x-2 py-2 px-8 md:px-20 bg-btn-black rounded-lg text-xl my-3">
                     <FontAwesomeIcon className="text-brand" icon={faFire} />
@@ -110,7 +125,7 @@ function UserProfile() {
                     return (
                         <button
                             key={key}
-                            className="rounded-lg bg-gradient-to-r from-white-op to-black-op py-20 px-3 flex items-center justify-center"
+                            className="rounded-lg bg-gradient-to-r from-white-op to-black-op py-20 px-3 flex items-center justify-center hover:scale-[1.02] hover:shadow-xl duration-300"
                             style={{
                                 backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,1), rgba(255,255,255,0.1 )), url(${items.bgImg})`,
                                 backgroundSize: "cover",

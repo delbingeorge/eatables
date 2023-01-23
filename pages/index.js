@@ -33,7 +33,7 @@ function Login() {
                             <Link href="/" as="/" className="text-5xl md:text-6xl font-colvet">
                                 eatables.
                             </Link>
-                            {/* <p className="font-poppy text-sm md:text-md">Find your next favorite.</p> */}
+                            <p className="font-poppy text-sm md:text-md">Find your next favorite.</p>
                         </div>
                         <div className="grid  md:grid-rows-2 grid-cols-1 gap-3 mx-4">
                             <input
@@ -49,18 +49,18 @@ function Login() {
                         </div>
 
                         <Link
-                            href="/userprofile"
-                            as="/userprofile"
+                            href="/search"
+                            as="/search"
                             className="py-[0.50rem] md:py-[0.70rem] bg-btn-black text-white px-9 md:px-12 text-xl font-poppy rounded-md hover:bg-dense duration-500"
                             type="button"
                         >
-                            sign up
+                            explore
                         </Link>
                     </form>
                     <div className="md:space-x-4 flex flex-col md:flex-row items-center justify-center">
-                        <a className="font-poppy md:text-lg underline hover:text-gray-700" href="#">
+                        {/* <a className="font-poppy md:text-lg underline hover:text-gray-700" href="#">
                             trouble logging in?
-                        </a>
+                        </a> */}
                         <Link href="/signup" as="/signup" className="font-poppy md:text-lg underline hover:text-gray-700">
                             create account
                         </Link>
