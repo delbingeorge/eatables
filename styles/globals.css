@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"); */
+
+@font-face {
+    font-family: poppins;
+    src: local("Poppins-Medium"), url(../pages/media/fonts/Poppins-Medium.ttf) format("opentype");
+    /* font-weight: 100; */
+}
 
 @font-face {
     font-family: coolvetica;
@@ -10,7 +16,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 0;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -19,5 +25,5 @@
 
 ::-webkit-scrollbar-thumb {
     background-color: #000000;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }

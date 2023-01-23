@@ -20,7 +20,7 @@ function Search() {
             </div>
             <div className="grid gap-3 grid-cols-1 pt-28 md:pt-[15rem] space-y-0">
                 <input
-                    className="border-none outline-none text-xl md:text-2xl px-6 py-3 md:px-44 mb-3 md:py-4 text-center placeholder:font-poppy placeholder:opacity-80 bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
+                    className="border-none outline-none text-xl md:text-2xl px-6 py-3 md:px-44 mb-3 md:py-4 text-center placeholder:opacity-70  placeholder:font-poppy placeholder:opacity-80 bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
                     placeholder="Fudopia, Mars"
                     type="text"
                 />

@@ -45,13 +45,13 @@ function Footer() {
                 <div className="font-poppy">
                     <h1 className="text-white font-medium font-xl pt-4 pb-2">Company</h1>
                     <nav className="flex flex-col space-y-2">
-                        <a className="text-sm" href="#">
+                        <a className="text-sm" href="https://www.delb.in">
                             About
                         </a>
-                        <a className="text-sm" href="#">
+                        <a className="text-sm" href="https://www.delb.in">
                             Our Story
                         </a>
-                        <a className="text-sm" href="#">
+                        <a className="text-sm" href="https://www.delb.in">
                             Meet the team
                         </a>
                     </nav>
@@ -59,13 +59,13 @@ function Footer() {
                 <div className="font-poppy">
                     <h1 className="text-white font-medium font-xl pt-4 pb-2">Helpful Links</h1>
                     <nav className="flex flex-col space-y-2">
-                        <a className="text-sm" href="#">
+                        <a className="text-sm" href="https://www.delb.in">
                             Contact
                         </a>
-                        <a className="text-sm" href="#">
+                        <a className="text-sm" href="https://www.delb.in">
                             FAQ
                         </a>
-                        <a className="text-sm" href="#">
+                        <a className="text-sm" href="https://www.delb.in">
                             Eatables Care
                         </a>
                     </nav>
@@ -73,13 +73,13 @@ function Footer() {
                 <div className="font-poppy">
                     <h1 className="text-white font-medium font-xl pt-4 pb-2">Legals</h1>
                     <nav className="flex flex-col space-y-2">
-                        <a className="text-sm" href="#">
+                        <a className="text-sm" href="https://www.delb.in">
                             Privacy Policy
                         </a>
-                        <a className="text-sm" href="#">
+                        <a className="text-sm" href="https://www.delb.in">
                             Terms & Conditions
                         </a>
-                        <a className="text-sm" href="#">
+                        <a className="text-sm" href="https://www.delb.in">
                             Report an issue!
                         </a>
                     </nav>

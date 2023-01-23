@@ -67,11 +67,11 @@ function UserProfile() {
 
                 <div className="flex items-center space-x-2 py-2 px-8 md:px-20 bg-btn-black rounded-lg text-xl my-3">
                     <FontAwesomeIcon className="text-brand" icon={faFire} />
-                    <h3 className="text-white font-semibold text-sm md:text-lg">100 contributions</h3>
+                    <h3 className="font-poppy text-white font-medium text-sm md:text-lg">100 contributions</h3>
                 </div>
                 <div className="flex items-center space-x-2 md:space-x-4 text-xl my-2 md:my-3 text-dense">
                     <FontAwesomeIcon className="text-sm md:text-xl" icon={faBookmark} />
-                    <h3 className=" font-bold tracking-wider text-sm md:text-xl">YOUR SAVED</h3>
+                    <h3 className="font-poppy font-bold tracking-wider text-sm md:text-xl">YOUR SAVED</h3>
                 </div>
                 <hr className="h-[1px] bg-dense border-none w-3/4"></hr>
             </div>
