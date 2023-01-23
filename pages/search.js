@@ -24,7 +24,7 @@ function Search() {
                 <input
                     className="border-none outline-none text-xl md:text-2xl px-6 py-3 md:px-44 mb-3 md:py-4 text-center placeholder:opacity-70  placeholder:font-poppy placeholder:opacity-80 bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
                     placeholder="Fudopia, Mars"
-                    value={search}
+                    // value={search}
                     type="text"
                 />
                 <h1 className="text-left font-poppy">
@@ -37,9 +37,9 @@ function Search() {
                                 type="button"
                                 className="py-2 px-4 bg-btn-black capitalize font-poppy text-center text-white rounded-md hover:bg-black duration-300 "
                                 key={key}
-                                onClick={() => {
-                                    setSearch(items);
-                                }}
+                                // onClick={() => {
+                                //     setSearch(items);
+                                // }}
                             >
                                 {items}
                             </button>

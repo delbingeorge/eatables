@@ -1,4 +1,4 @@
-import { faCheckCircle, faClose, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faCheckCircle, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import React from "react";
@@ -6,9 +6,9 @@ import { useState } from "react";
 import Footer from "./footer";
 
 function CreateAccount() {
-    const [name, setName] = useState("");
-    const [username, setUsername] = useState("");
-    const [email, setEmail] = useState("");
+    // const [name, setName] = useState("");
+    // const [username, setUsername] = useState("");
+    // const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [passwordConfirm, setPasswordConfirm] = useState("");
 
@@ -22,11 +22,6 @@ function CreateAccount() {
                             <h2 className="pl-1 md:pl-2 font-poppy font-medium text-sm md:text-lg">create account</h2>
                         </div>
                     </div>
-                    {/* <div>
-                        <button className="text-3xl">
-                            <FontAwesomeIcon icon={faClose} />
-                        </button>
-                    </div> */}
                 </div>
                 <form className="flex flex-col items-center justify-center py-16 md:py-36 md:space-y-4 space-y-2">
                     <div className="flex flex-col items-center pb-2 md:pb-4">
@@ -92,14 +87,12 @@ function CreateAccount() {
                     ) : password != "" && passwordConfirm != "" ? (
                         password === passwordConfirm ? (
                             <div>
-                                {/* <p className='text-sm text-center md:text-lg font-poppy'>Username must be 4-15 characters.</p> */}
                                 <p className="text-sm text-center md:text-lg font-poppy">
-                                    {" "}
                                     <FontAwesomeIcon className="pr-2" icon={faCheckCircle} />
                                     Password Matched!
                                 </p>
                                 <p className="text-sm text-center md:text-lg font-poppy">
-                                    By signing up, you agree to all of our{" "}
+                                    By signing up, you agree to all of our
                                     <a href="#" className="underline">
                                         terms and conditions
                                     </a>
