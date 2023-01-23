@@ -2,21 +2,18 @@ import { faUser, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-import { getPlacesData } from "./api";
+// import { getPlacesData } from "./api";
+const nearby = ["Kankannady", "Lalbagh", "Kodialbail", "Balalbag", "Jyothi"];
 
 function Search() {
-    const [places, setPlaces] = useState([]);
-    const [search, setSearch] = useState();
+    // const [places, setPlaces] = useState([]);
+    const [search, setSearch] = useState("");
 
-    useEffect(() => {
-        getPlacesData().then((data) => {
-            navigator.geolocation.getCurrentPosition(function (position) {
-                console.log("Latitude is :", position.coords.latitude);
-                console.log("Longitude is :", position.coords.longitude);
-            });
-            setPlaces(data);
-        });
-    }, []);
+    // useEffect(() => {
+    //     getPlacesData().then((data) => {
+    //         setPlaces(data);
+    //     });
+    // }, []);
 
     return (
         <div className="bg-img min-h-screen flex flex-col items-center  py-4 px-4 md:px-16">
@@ -41,20 +38,34 @@ function Search() {
                 <h1 className="text-left font-poppy">
                     nearby hotels <FontAwesomeIcon icon={faLocationDot} />
                 </h1>
+                {/* {places.map((items, key) => {
+                    return items.name == undefined ? (
+                        ""
+                    ) : (
+                        <button
+                            key={key}
+                            type="button"
+                            className="py-2 px-4 bg-btn-black capitalize font-poppy text-center text-white rounded-md hover:bg-black duration-300"
+                            onClick={() => {
+                                setSearch(items.name);
+                            }}
+                        >
+                            {items.name}
+                        </button>
+                    );
+                })} */}
                 <div className="grid grid-cols-1 md:grid-cols-5 gap-2">
-                    {places.map((items, key) => {
-                        return items.name == undefined ? (
-                            ""
-                        ) : (
+                    {nearby.map((items, key) => {
+                        return (
                             <button
-                                key={key}
                                 type="button"
-                                className="py-2 px-4 bg-btn-black capitalize font-poppy text-center text-white rounded-md hover:bg-black duration-300"
+                                className="py-2 px-4 bg-btn-black font-poppy text-center text-white rounded-md hover:bg-black duration-300 "
+                                key={key}
                                 onClick={() => {
-                                    setSearch(items.name);
+                                    setSearch(items);
                                 }}
                             >
-                                {items.name}
+                                {items}
                             </button>
                         );
                     })}
