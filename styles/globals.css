@@ -15,6 +15,12 @@
     src: url(../pages/media/fonts/coolvetica.otf);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
 ::-webkit-scrollbar {
     width: 5px;
 }
@@ -25,5 +31,9 @@
 
 ::-webkit-scrollbar-thumb {
     background-color: #000000;
-    /* border-radius: 10px; */
+}
+
+::selection {
+    background-color: #f9bb21;
+    color: #000000;
 }

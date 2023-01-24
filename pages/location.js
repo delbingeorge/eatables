@@ -4,40 +4,43 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import axios from "axios";
 
-function Search() {
-    const URL = "https://travel-advisor.p.rapidapi.com/restaurants/list-by-latlng";
+function Location() {
     const [places, setPlaces] = useState([]);
     const [search, setSearch] = useState("");
 
-    const options = {
-        params: {
-            latitude: "12.873561",
-            longitude: "74.845844",
-        },
-        headers: {
-            "X-RapidAPI-Key": "0e97b8c780msh87eb09389299fb4p1b3d66jsn67cc0885f34c",
-            "X-RapidAPI-Host": "travel-advisor.p.rapidapi.com",
-        },
-    };
-
-    const getPlacesData = async () => {
-        try {
-            const {
-                data: { data },
-            } = await axios.get(URL, options);
-            return data;
-        } catch (error) {
-            console.log(error);
-        }
-    };
+    const [coordinates, setCoordinates] = useState({});
 
     useEffect(() => {
-        getPlacesData().then((data) => {
-            setPlaces(data);
-        });
+        navigator.geolocation.getCurrentPosition(
+            (position) => {
+                setCoordinates({
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude,
+                });
+            },
+            (error) => {
+                console.log(error);
+            },
+            {
+                enableHighAccuracy: true,
+                timeout: 2000,
+                maximumAge: 0,
+            }
+        );
     }, []);
 
-    console.log(places);
+    console.log("Consoling coordinates");
+    console.log(coordinates);
+
+    const options = {
+        params: {
+            latitude: coordinates.lat,
+            longitude: coordinates.lng,
+        },
+    };
+
+    console.log("Consoling options");
+    console.log(options);
 
     return (
         <div className="bg-img min-h-screen flex flex-col items-center  py-4 px-4 md:px-16">
@@ -71,7 +74,9 @@ function Search() {
                                 key={key}
                                 type="button"
                                 className="py-2 px-4 bg-btn-black capitalize font-poppy text-center text-white rounded-md hover:bg-black duration-300"
-                                onClick={() => setSearch(items.name)}
+                                onClick={() => {
+                                    setSearch(items.name);
+                                }}
                             >
                                 {items.name}
                             </button>
@@ -99,4 +104,4 @@ function Search() {
     );
 }
 
-export default Search;
+export default Location;

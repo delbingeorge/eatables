@@ -174,7 +174,7 @@ function UserProfile() {
                     );
                 })}
             </div>
-            <div className="sticky w-5/6 md:w-1/6 rounded-full h-10 md:h-12 bg-dense bottom-10 flex items-center justify-around">
+            <div className="sticky w-5/6 md:w-1/6 rounded-full h-12 md:h-12 bg-dense bottom-10 flex items-center justify-around">
                 <Link
                     href="/search"
                     as="/search"
