@@ -62,9 +62,9 @@ function CreateAccount() {
         <>
             {show == true ? (
                 <div className="py-2 px-6 rounded-sm text-white bg-red-500 absolute z-50 shadow-xl flex items-center justify-center space-x-4 bottom-0 m-3">
-                    <h1 className="text-lg font-poppy">Incorrect signup details</h1>
+                    <h1 className="text-sm md:text-lg font-poppy">Incorrect signup details</h1>
                     <button
-                        className="text-2xl"
+                        className="text-xl md:text-2xl"
                         onClick={() => {
                             setShow(!show);
                         }}
@@ -182,7 +182,7 @@ function CreateAccount() {
                     <button
                         // href="/"
                         // as="/"
-                        className="py-[0.50rem] md:py-[0.70rem] bg-btn-black text-white px-9 md:px-12 text-xl font-poppy rounded-md hover:bg-dense duration-500"
+                        className="py-[0.50rem] md:py-[0.70rem] bg-dense  text-white px-9 md:px-12 text-xl font-poppy rounded-md hover:bg-dense duration-500"
                         type="button"
                         onClick={userSignUp}
                     >
