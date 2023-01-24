@@ -1,4 +1,4 @@
-import { faCheckCircle, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faCheckCircle, faUser, faClose } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -9,6 +9,7 @@ import Footer from "./footer";
 function CreateAccount() {
     const router = useRouter();
 
+    const [show, setShow] = useState(false);
     const [signup, setSignUp] = useState({
         "full-name": "",
         username: "",
@@ -33,14 +34,47 @@ function CreateAccount() {
             signup.password === "" ||
             signup["confirm-password"] === ""
         ) {
-            window.alert("Enter all details!");
+            setShow(true);
         } else {
             router.push("/");
         }
     };
 
+    {
+        show == true ? (
+            <div className="py-2 px-6 rounded-sm text-white bg-red-500 absolute z-50 shadow-xl flex items-center justify-center space-x-2 bottom-0 m-3">
+                <h1 className="text-lg font-poppy">Incorrect details</h1>
+                <button
+                    className="text-2xl"
+                    onClick={() => {
+                        setShow(!show);
+                    }}
+                >
+                    <FontAwesomeIcon icon={faClose} />
+                </button>
+            </div>
+        ) : (
+            ""
+        );
+    }
+
     return (
         <>
+            {show == true ? (
+                <div className="py-2 px-6 rounded-sm text-white bg-red-500 absolute z-50 shadow-xl flex items-center justify-center space-x-4 bottom-0 m-3">
+                    <h1 className="text-lg font-poppy">Incorrect signup details</h1>
+                    <button
+                        className="text-2xl"
+                        onClick={() => {
+                            setShow(!show);
+                        }}
+                    >
+                        <FontAwesomeIcon icon={faClose} />
+                    </button>
+                </div>
+            ) : (
+                ""
+            )}
             <div className="bg-img min-h-screen flex flex-col items-center py-4 px-4 md:px-16">
                 <div className="flex items-center w-full justify-between md:pt-4">
                     <div className="">
@@ -68,7 +102,11 @@ function CreateAccount() {
                             value={signup["full-name"]}
                         />
                         <input
-                            className="border-none outline-none text-xl md:text-2xl px-3 py-3 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
+                            className={
+                                false
+                                    ? "border-none outline-none text-xl md:text-2xl px-3 py-3 placeholder:opacity-70 text-center placeholder:font-poppy bg-red-500 font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s] placeholder:text-dense text-white"
+                                    : "border-none outline-none text-xl md:text-2xl px-3 py-3 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
+                            }
                             placeholder="username"
                             maxLength={15}
                             minLength={4}

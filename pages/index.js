@@ -1,11 +1,19 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "./footer";
 import { useState } from "react";
 import { useRouter } from "next/router";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClose } from "@fortawesome/free-solid-svg-icons";
 
 function Login() {
     const router = useRouter();
+
+    const [show, setShow] = useState(false);
+
+    setTimeout(() => {
+        setShow(false);
+    }, 6000);
 
     const [login, setLogIn] = useState({
         username: "",
@@ -22,7 +30,7 @@ function Login() {
 
     const userLogin = () => {
         if (login.username === "" || login.password === "") {
-            window.alert("Enter all details!");
+            setShow(true);
         } else {
             router.push("/userprofile");
         }
@@ -30,6 +38,22 @@ function Login() {
 
     return (
         <>
+            {show == true ? (
+                <div className="py-2 px-6 rounded-sm text-white bg-red-500 absolute z-50 shadow-xl flex items-center justify-center space-x-4 bottom-0 m-3">
+                    <h1 className="text-lg font-poppy">Incorrect login details</h1>
+                    <button
+                        className="text-2xl"
+                        onClick={() => {
+                            setShow(!show);
+                        }}
+                    >
+                        <FontAwesomeIcon icon={faClose} />
+                    </button>
+                </div>
+            ) : (
+                ""
+            )}
+
             <div className="bg-img min-h-screen grid">
                 <div className="flex flex-col items-center justify-center">
                     <form className="flex flex-col items-center justify-center py-16 md:py-36 md:space-y-4 space-y-2">
@@ -45,6 +69,7 @@ function Login() {
                                 placeholder="username"
                                 type="text"
                                 name="username"
+                                autoComplete="off"
                                 onChange={handleChange}
                                 value={login.username}
                             />
@@ -53,6 +78,7 @@ function Login() {
                                 placeholder="password"
                                 type="password"
                                 name="password"
+                                autoComplete="off"
                                 onChange={handleChange}
                                 value={login.password}
                             />
