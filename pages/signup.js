@@ -1,4 +1,5 @@
 import { faCheckCircle, faUser, faClose } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faInstagram, faGoogle, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -17,6 +18,10 @@ function CreateAccount() {
         password: "",
         "confirm-password": "",
     });
+
+    setTimeout(() => {
+        setShow(false);
+    }, 6000);
 
     function handleChange(event) {
         const { name, value } = event.target;
@@ -42,7 +47,7 @@ function CreateAccount() {
 
     {
         show == true ? (
-            <div className="py-2 px-6 rounded-sm text-white bg-red-500 absolute z-50 shadow-xl flex items-center justify-center space-x-2 bottom-0 m-3">
+            <div className="py-2 px-6 rounded-sm text-white bg-red-500 absolute z-50 shadow-xl flex items-center justify-center space-x-2 top-0 md:bottom-0 m-3">
                 <h1 className="text-lg font-poppy">Incorrect details</h1>
                 <button
                     className="text-2xl"
@@ -84,7 +89,7 @@ function CreateAccount() {
                         </div>
                     </div>
                 </div>
-                <form className="flex flex-col items-center justify-center py-16 md:py-36 md:space-y-4 space-y-2">
+                <form className="flex flex-col items-center justify-center py-6  md:py-28 md:space-y-4 space-y-2">
                     <div className="flex flex-col items-center pb-2 md:pb-4">
                         <Link href="/" as="/" className="outline-none text-5xl md:text-6xl font-colvet">
                             eatables.
@@ -188,6 +193,27 @@ function CreateAccount() {
                     >
                         sign up
                     </button>
+                    <h1 className="font-poppy text-sm">OR</h1>
+                    <div className="flex items-center justify-center space-x-3">
+                        <Link
+                            href="/api/auth/signin"
+                            // onClick={userLogin}
+                            className=" bg-dense text-white px-3 py-2 text-xl font-poppy rounded-md hover:bg-dense duration-500"
+                            type="button"
+                        >
+                            <FontAwesomeIcon icon={faGoogle} />
+                            {/* sign in with google */}
+                        </Link>
+                        <Link
+                            href="/api/auth/signin"
+                            // onClick={userLogin}
+                            className=" bg-dense text-white px-3 py-2 text-xl font-poppy rounded-md hover:bg-dense duration-500"
+                            type="button"
+                        >
+                            <FontAwesomeIcon icon={faTwitter} />
+                            {/* sign in with google */}
+                        </Link>
+                    </div>
                 </form>
             </div>
             <Footer />

@@ -80,7 +80,7 @@ function Search() {
                         );
                     })}
                     {/* {nearby.map((items, key) => {
-                        return (
+                           return (
                             <button
                                 type="button"
                                 className="py-2 px-4 bg-btn-black font-poppy text-center text-white rounded-md hover:bg-black duration-300 "

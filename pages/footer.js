@@ -15,7 +15,7 @@ function Footer() {
                     <Link
                         href="/signup"
                         as="/signup"
-                        className="py-2 px-8 bg-brand rounded-lg text-md font-poppy font-medium text-dense hover:text-btn-black"
+                        className="py-2 px-8 bg-brand rounded-lg text-md font-poppy font-medium text-dense"
                     >
                         Get started
                     </Link>
@@ -34,7 +34,11 @@ function Footer() {
                         <a className="hover:text-brand duration-300" target="_blank" href="https://twitter.com/youreatables">
                             <FontAwesomeIcon icon={faTwitter} />
                         </a>
-                        <a className="hover:text-brand duration-300" target="_blank" href="https://www.instagram.com/youreatables">
+                        <a
+                            className="hover:text-brand duration-300"
+                            target="_blank"
+                            href="https://www.instagram.com/youreatables"
+                        >
                             <FontAwesomeIcon icon={faInstagram} />
                         </a>
                         <a className="hover:text-brand duration-300" target="_blank" href="https://twitter.com/youreatables">
