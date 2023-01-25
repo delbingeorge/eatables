@@ -5,7 +5,7 @@ import { useState } from "react";
 import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faGoogle, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { getProviders, signIn } from "next-auth/react";
 
 function Login() {
     const router = useRouter();
@@ -95,21 +95,10 @@ function Login() {
                         <div className="flex items-center justify-center space-x-3">
                             <Link
                                 href="/api/auth/signin"
-                                // onClick={userLogin}
-                                className=" bg-dense text-white px-3 py-2 text-xl font-poppy rounded-md hover:bg-dense duration-500"
+                                className=" bg-dense text-white px-4 py-2 text-sm font-poppy rounded-md hover:bg-dense duration-500"
                                 type="button"
                             >
-                                <FontAwesomeIcon icon={faGoogle} />
-                                {/* sign in with google */}
-                            </Link>
-                            <Link
-                                href="/api/auth/signin"
-                                // onClick={userLogin}
-                                className=" bg-dense text-white px-3 py-2 text-xl font-poppy rounded-md hover:bg-dense duration-500"
-                                type="button"
-                            >
-                                <FontAwesomeIcon icon={faTwitter} />
-                                {/* sign in with google */}
+                                other sign in options
                             </Link>
                         </div>
                     </form>
