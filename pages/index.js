@@ -5,7 +5,7 @@ import { useState } from "react";
 import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faGoogle, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faGoogle, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 function Login() {
     const router = useRouter();
