@@ -31,17 +31,13 @@ function Footer() {
                         should be an adventure.
                     </p>
                     <div className="space-x-6 text-xl">
-                        <a className="hover:text-brand duration-300" target="_blank" href="https://twitter.com/youreatables">
+                        <a className="hover:text-brand duration-300" href="https://twitter.com/youreatables">
                             <FontAwesomeIcon icon={faTwitter} />
                         </a>
-                        <a
-                            className="hover:text-brand duration-300"
-                            target="_blank"
-                            href="https://www.instagram.com/youreatables"
-                        >
+                        <a className="hover:text-brand duration-300" href="https://www.instagram.com/youreatables">
                             <FontAwesomeIcon icon={faInstagram} />
                         </a>
-                        <a className="hover:text-brand duration-300" target="_blank" href="https://twitter.com/youreatables">
+                        <a className="hover:text-brand duration-300" href="https://twitter.com/youreatables">
                             <FontAwesomeIcon icon={faFacebook} />
                         </a>
                     </div>
