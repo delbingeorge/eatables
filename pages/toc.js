@@ -60,7 +60,7 @@ export default function tos() {
                     <Link
                         href="signup"
                         as="signup"
-                        className="py-[0.50rem] md:py-[0.70rem] bg-btn-black text-white px-9 md:px-12 text-xl font-poppy rounded-md hover:bg-dense duration-500"
+                        className="py-[0.50rem] md:py-[0.70rem] bg-dense text-white px-9 md:px-12 text-xl font-poppy rounded-md hover:bg-dense duration-500"
                         type="button"
                     >
                         sign up

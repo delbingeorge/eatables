@@ -5,7 +5,7 @@ import { useState } from "react";
 import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
-import { faGoogle, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faGoogle, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 function Login() {
     const router = useRouter();
@@ -55,7 +55,7 @@ function Login() {
                 ""
             )}
 
-            <div className="bg-img min-h-screen grid">
+            <div className="bg-brand bg-img min-h-screen grid">
                 <div className="flex flex-col items-center justify-center">
                     <form className="flex flex-col items-center justify-center py-16 md:py-36 md:space-y-4 space-y-2">
                         <div className="flex flex-col items-center pb-2 md:pb-4">

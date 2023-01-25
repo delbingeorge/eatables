@@ -1,5 +1,5 @@
 import { faCheckCircle, faUser, faClose } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faInstagram, faGoogle, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faGoogle, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -80,7 +80,7 @@ function CreateAccount() {
             ) : (
                 ""
             )}
-            <div className="bg-img min-h-screen flex flex-col items-center py-4 px-4 md:px-16">
+            <div className="bg-brand bg-img min-h-screen flex flex-col items-center py-4 px-4 md:px-16">
                 <div className="flex items-center w-full justify-between md:pt-4">
                     <div className="">
                         <div className="flex items-center">

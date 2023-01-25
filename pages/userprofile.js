@@ -72,9 +72,9 @@ const Saved = [
     },
 ];
 
-function UserProfile() {    
+function UserProfile() {
     return (
-        <div className="bg-img w-full flex flex-col items-center py-4 px-4 md:py-0 md:px-16 outline-none border-none">
+        <div className="bg-brand bg-img w-full flex flex-col items-center py-4 px-4 md:py-0 md:px-16 outline-none border-none">
             <div className="flex items-center w-full justify-between md:pt-4">
                 <Link href="/search" as="/search">
                     <h1 className="text-3xl md:text-5xl font-colvet">eatables.</h1>
