@@ -193,33 +193,13 @@ function CreateAccount() {
                     >
                         sign up
                     </button>
-                    <h1 className="font-poppy text-sm">OR</h1>
-                    <div className="flex items-center justify-center space-x-3">
-                        {/* <Link
-                            href="/api/auth/signin"
-                            className=" bg-dense text-white px-3 py-2 text-xl font-poppy rounded-md hover:bg-dense duration-500"
-                            type="button"
-                        >
-                            <FontAwesomeIcon icon={faGoogle} />
-                            sign in with google
+                    <p className="text-sm text-center md:text-lg font-poppy">
+                        have an account?     
+                        <Link href="/" as="/" className="underline pl-1">
+                              Log In
                         </Link>
-                        <Link
-                            href="/api/auth/signin"
-                            // onClick={userLogin}
-                            className=" bg-dense text-white px-3 py-2 text-xl font-poppy rounded-md hover:bg-dense duration-500"
-                            type="button"
-                        >
-                            <FontAwesomeIcon icon={faTwitter} />
-                            sign in with google
-                        </Link> */}
-                        <Link
-                            href="/api/auth/signin"
-                            className=" bg-dense text-white px-4 py-2 text-sm font-poppy rounded-md hover:bg-dense duration-500"
-                            type="button"
-                        >
-                            other sign in options
-                        </Link>
-                    </div>
+                        .
+                    </p>
                 </form>
             </div>
             <Footer />

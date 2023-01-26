@@ -103,9 +103,9 @@ function Login() {
                         </div>
                     </form>
                     <div className="md:space-x-4 flex flex-col md:flex-row items-center justify-center">
-                        <a className="font-poppy md:text-lg underline hover:text-gray-700" href="#">
+                        {/* <a className="font-poppy md:text-lg underline hover:text-gray-700" href="#">
                             trouble logging in?
-                        </a>
+                        </a> */}
                         <Link href="/signup" as="/signup" className="font-poppy md:text-lg underline hover:text-gray-700">
                             create account
                         </Link>

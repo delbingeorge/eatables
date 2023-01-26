@@ -9,7 +9,14 @@ export default function App({ Component, pageProps }) {
                 <title>Eatables Official</title>
                 {/* <link rel="icon" type="image/x-icon" href="public/eatables.png" /> */}
             </Head>
-            <NextNProgress color="#000" startPosition={0.3} stopDelayMs={200} height={5} showOnShallow={true} />
+            <NextNProgress
+                color="#000"
+                startPosition={0.3}
+                stopDelayMs={200}
+                height={5}
+                showOnShallow={true}
+                options={{ showSpinner: false }}
+            />
             <Component {...pageProps} />
         </>
     );
