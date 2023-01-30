@@ -12,7 +12,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import eatFavImg from "../pages/media/images/eat-fav.png";
-import userAvatar from "../pages/media/images/Ashwin.jpg";
+import userAvatar from "../pages/media/images/ashwin.jpg";
 
 const Saved = [
     {
