@@ -7,7 +7,6 @@ export default function App({ Component, pageProps }) {
         <>
             <Head>
                 <title>Eatables Official</title>
-                {/* <link rel="icon" type="image/x-icon" href="public/eatables.png" /> */}
             </Head>
             <NextNProgress
                 color="#000"

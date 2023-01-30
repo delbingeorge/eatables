@@ -5,7 +5,6 @@ import { useState } from "react";
 import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
-import { getProviders, signIn } from "next-auth/react";
 
 function Login() {
     const router = useRouter();

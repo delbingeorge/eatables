@@ -1,5 +1,4 @@
 import { faCheckCircle, faUser, faClose } from "@fortawesome/free-solid-svg-icons";
-import { faGoogle, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -194,9 +193,9 @@ function CreateAccount() {
                         sign up
                     </button>
                     <p className="text-sm text-center md:text-lg font-poppy">
-                        have an account?     
+                        have an account?
                         <Link href="/" as="/" className="underline pl-1">
-                              Log In
+                            Log In
                         </Link>
                         .
                     </p>

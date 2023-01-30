@@ -1,10 +1,18 @@
-import { faStar, faBookmark, faGear, faFire, faRightFromBracket, faHome } from "@fortawesome/free-solid-svg-icons";
+import {
+    faStar,
+    faBookmark,
+    faGear,
+    faRightFromBracket,
+    faHome,
+    faCircleCheck,
+    faHeart,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import eatFavImg from "../pages/media/images/eat-fav.png";
-import userAvatar from "../pages/media/images/userAvatar.png";
+import userAvatar from "../pages/media/images/Ashwin.jpg";
 
 const Saved = [
     {
@@ -72,19 +80,7 @@ const Saved = [
     },
 ];
 
-function UserProfile() {
-    const [hideNav, setHideNav] = useState(false);
-
-    useEffect(() => {
-        window.addEventListener("scroll", () => {
-            if (window.pageYOffset > 0) {
-                setHideNav(true);
-            } else {
-                setHideNav(false);
-            }
-        });
-    }, []);
-
+export default function Creator() {
     return (
         <div className="bg-brand bg-img w-full flex flex-col items-center py-4 px-4 md:py-0 md:px-16 outline-none border-none">
             <div className="flex items-center w-full justify-between md:pt-4">
@@ -104,14 +100,17 @@ function UserProfile() {
                     className="rounded-full border-black border-4 md:border-8 shadow-2xl w-32 h-32 md:w-44 md:h-44 object-cover"
                     src={userAvatar}
                 />
-                <h1 className="font-poppy text-2xl md:text-3xl font-semibold pt-4 text-center">Delbin George</h1>
+                <h1 className="font-poppy text-2xl md:text-3xl font-semibold pt-4 text-center">Ashwin KV</h1>
                 <div className="flex space-x-2">
-                    <h2 className="font-poppy text-lg md:text-xl font-medium">@delbingeorge</h2>
+                    <h2 className="font-poppy text-lg md:text-xl font-medium">
+                        @ashwinkv
+                        <FontAwesomeIcon className="text-[0.9rem] pl-1 text-blue-600" icon={faCircleCheck} />
+                    </h2>
                 </div>
 
                 <div className="flex items-center space-x-2 py-2 px-8 md:px-20 bg-dense rounded-xl text-xl my-3">
-                    <FontAwesomeIcon className="text-brand" icon={faFire} />
-                    <h3 className="font-poppy text-white font-medium text-sm md:text-lg">100 contributions</h3>
+                    <FontAwesomeIcon className="text-brand" icon={faHeart} />
+                    <h3 className="font-poppy text-white font-medium text-sm md:text-lg">100k reactions</h3>
                 </div>
                 <div className="flex items-center space-x-2 md:space-x-4 text-xl my-2 md:my-3 text-dense">
                     <FontAwesomeIcon className="text-sm md:text-xl" icon={faBookmark} />
@@ -186,7 +185,7 @@ function UserProfile() {
                     );
                 })}
             </div>
-            {/* <div className="sticky w-5/6 md:w-1/6 rounded-full h-12 md:h-12 bg-dense bottom-10 flex items-center justify-around">
+            <div className="sticky w-5/6 md:w-1/6 rounded-full h-12 md:h-12 bg-dense bottom-10 flex items-center justify-around">
                 <Link
                     href="/search"
                     as="/search"
@@ -204,34 +203,9 @@ function UserProfile() {
                     className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-xl"
                     type="button"
                 >
-                    <FontAwesomeIcon icon={faFire} />
+                    <FontAwesomeIcon icon={faHeart} />
                 </button>
-            </div> */}
-            <div className={`fixed bottom-16 md:bottom-4 w-80 bg-dense py-4 px-10 shadow rounded-xl ${hideNav && "hidden"}`}>
-                <div className="container mx-auto flex justify-between items-center">
-                    <Link
-                        href="/search"
-                        as="/search"
-                        className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-xl"
-                    >
-                        <FontAwesomeIcon icon={faHome} />
-                    </Link>
-                    <button
-                        className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-xl"
-                        type="button"
-                    >
-                        <FontAwesomeIcon icon={faGear} />
-                    </button>
-                    <button
-                        className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-xl"
-                        type="button"
-                    >
-                        <FontAwesomeIcon icon={faFire} />
-                    </button>
-                </div>
             </div>
         </div>
     );
 }
-
-export default UserProfile;
