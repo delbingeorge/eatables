@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
 import { useState } from "react";
-import Footer from "./footer";
+import Footer from "../component/footer";
 
 function CreateAccount() {
     const router = useRouter();

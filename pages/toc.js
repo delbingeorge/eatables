@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Footer from "./footer";
+import Footer from "../component/footer";
 
 export default function tos() {
     return (

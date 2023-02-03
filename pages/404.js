@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Footer from "./footer";
+import Footer from "../component/footer";
 import foodNotFound from "../pages/media/images/foodNotFound.png";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

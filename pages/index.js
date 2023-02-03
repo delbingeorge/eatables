@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import Footer from "./footer";
+import Footer from "../component/footer";
 import { useState } from "react";
 import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -53,7 +53,6 @@ function Login() {
             ) : (
                 ""
             )}
-
             <div className="bg-brand bg-img min-h-screen grid">
                 <div className="flex flex-col items-center justify-center">
                     <form className="flex flex-col items-center justify-center py-16 md:py-36 md:space-y-4 space-y-2">
@@ -90,16 +89,16 @@ function Login() {
                         >
                             explore
                         </button>
-                        {/* <h1 className="font-poppy text-sm">OR</h1>
+                        <h1 className="font-poppy text-sm">OR</h1>
                         <div className="flex items-center justify-center space-x-3">
                             <Link
                                 href="/api/auth/signin"
-                                className=" bg-dense text-white px-4 py-2 text-sm font-poppy rounded-md hover:bg-dense duration-500"
+                                className=" bg-dense text-white px-6 py-3 text-sm font-poppy rounded-md hover:bg-dense duration-500"
                                 type="button"
                             >
                                 other sign in options
                             </Link>
-                        </div> */}
+                        </div>
                     </form>
                     <div className="md:space-x-4 flex flex-col md:flex-row items-center justify-center">
                         <Link

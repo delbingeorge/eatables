@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import Footer from "./footer";
+import Footer from "../component/footer";
 import { useState } from "react";
 import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
