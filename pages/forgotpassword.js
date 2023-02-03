@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 
-function Login() {
+function ForgotPassword() {
     const router = useRouter();
 
     const [show, setShow] = useState(false);
@@ -63,24 +63,43 @@ function Login() {
                             </Link>
                             <p className="font-poppy text-sm md:text-md">Find your next favorite.</p>
                         </div>
-                        <div className="grid  md:grid-rows-2 grid-cols-1 gap-3 mx-4">
+                        <div className="grid md:grid-cols-2 md:grid-rows-2 grid-cols-1 gap-3">
                             <input
-                                className="border-dense outline-none text-xl md:text-2xl px-3 py-3 md:px-24 md:py-4 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
+                                className="border-none outline-none text-xl md:text-2xl px-3 py-3  placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
                                 placeholder="username"
+                                type="text"
+                                name="full-name"
+                                autoComplete="off"
+                                onChange={handleChange}
+                            />
+                            <input
+                                className={
+                                    false
+                                        ? "border-none outline-none text-xl md:text-2xl px-3 py-3 placeholder:opacity-70 text-center placeholder:font-poppy bg-red-500 font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s] placeholder:text-dense text-white"
+                                        : "border-none outline-none text-xl md:text-2xl px-3 py-3 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
+                                }
+                                placeholder="email"
+                                maxLength={15}
+                                minLength={4}
                                 type="text"
                                 name="username"
                                 autoComplete="off"
                                 onChange={handleChange}
-                                value={login.username}
                             />
                             <input
-                                className="border-none outline-none text-xl md:text-2xl px-6 py-3 md:px-24 md:py-4 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
+                                className="border-none outline-none text-xl md:text-2xl px-6 py-3 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
                                 placeholder="password"
                                 type="password"
                                 name="password"
                                 autoComplete="off"
                                 onChange={handleChange}
-                                value={login.password}
+                            />
+                            <input
+                                className="border-none  outline-none text-xl md:text-2xl px-6 py-3 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
+                                placeholder="confirm"
+                                type="password"
+                                name="confirm-password"
+                                onChange={handleChange}
                             />
                         </div>
                         <button
@@ -88,31 +107,9 @@ function Login() {
                             className="py-[0.50rem] md:py-[0.70rem] bg-dense text-white px-9 md:px-12 text-xl font-poppy rounded-md hover:bg-dense duration-500 "
                             type="button"
                         >
-                            explore
+                            confirm
                         </button>
-                        {/* <h1 className="font-poppy text-sm">OR</h1>
-                        <div className="flex items-center justify-center space-x-3">
-                            <Link
-                                href="/api/auth/signin"
-                                className=" bg-dense text-white px-4 py-2 text-sm font-poppy rounded-md hover:bg-dense duration-500"
-                                type="button"
-                            >
-                                other sign in options
-                            </Link>
-                        </div> */}
                     </form>
-                    <div className="md:space-x-4 flex flex-col md:flex-row items-center justify-center">
-                        <Link
-                            href="/forgotpassword"
-                            as="/forgotpassword"
-                            className="font-poppy md:text-lg underline hover:text-gray-700"
-                        >
-                            forgot password?
-                        </Link>
-                        <Link href="/signup" as="/signup" className="font-poppy md:text-lg underline hover:text-gray-700">
-                            create account
-                        </Link>
-                    </div>
                 </div>
             </div>
             <Footer />
@@ -120,4 +117,4 @@ function Login() {
     );
 }
 
-export default Login;
+export default ForgotPassword;

@@ -7,31 +7,14 @@ import axios from "axios";
 function Search() {
     const URL = "https://travel-advisor.p.rapidapi.com/restaurants/list-by-latlng";
     const [places, setPlaces] = useState([]);
-    const [search, setSearch] = useState("");
-
-    const [location, setLocation] = useState({});
-
-    useEffect(() => {
-        navigator.geolocation.getCurrentPosition(
-            (position) => {
-                setLocation({
-                    lat: position.coords.latitude,
-                    lng: position.coords.longitude,
-                });
-            },
-            (error) => {
-                console.error(error);
-            }
-        );
-    }, []);
 
     const options = {
         params: {
-            latitude: location.lat || "12.873561",
-            longitude: location.lng || "74.845844",
+            latitude: "12.873561",
+            longitude: "74.845844",
         },
         headers: {
-            "X-RapidAPI-Key": "0e97b8c780msh87eb09389299fb4p1b3d66jsn67cc0885f34c",
+            "X-RapidAPI-Key": "4661ea1fa3msh46f19ad3c752824p1ced86jsn547f75fb211c",
             "X-RapidAPI-Host": "travel-advisor.p.rapidapi.com",
         },
     };
@@ -68,13 +51,12 @@ function Search() {
                     </Link>
                 </div>
             </div>
-            <input
-                className="border-none outline-none text-xl mt-28 md:mt-[15rem] md:text-2xl px-6 py-3 md:px-44 mb-3 md:py-4 text-center placeholder:font-poppy placeholder:opacity-80 bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
-                placeholder="Fudopia, Mars"
-                value={search}
-                type="text"
-            />
-            <div className="grid gap-3 grid-cols-1 pt-2 md:pt-2 space-y-0">
+            <div className="grid gap-3 grid-cols-1 pt-28 md:pt-[15rem] space-y-0">
+                <input
+                    className="border-none outline-none text-xl md:text-2xl px-6 py-3 md:px-44 mb-3 md:py-4 text-center placeholder:font-poppy placeholder:opacity-80 bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
+                    placeholder="Fudopia, Mars"
+                    type="text"
+                />
                 <h1 className="text-left font-poppy">
                     nearby hotels <FontAwesomeIcon icon={faLocationDot} />
                 </h1>
@@ -82,12 +64,11 @@ function Search() {
                     {places.map((items, key) => {
                         return items.name == undefined ? (
                             ""
-                        ) : items.rating >= 4 ? (
+                        ) : items.rating >= 4.1 ? (
                             <button
                                 key={key}
                                 type="button"
                                 className="py-2 px-4 bg-btn-black capitalize font-poppy text-center text-white rounded-md hover:bg-black duration-300"
-                                onClick={() => setSearch(items.name)}
                             >
                                 {items.name}
                             </button>
