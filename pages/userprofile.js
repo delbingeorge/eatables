@@ -93,18 +93,21 @@ function UserProfile() {
                 <>
                     <div className="bg-brand bg-img w-full flex flex-col items-center py-4 px-4 md:py-0 md:px-16 outline-none border-none">
                         <div className="flex items-center w-full justify-between md:pt-4">
-                            <Link href="/search" as="/search">
+                            <Link className="group relative inline-block" href="/search" as="/search">
                                 <h1 className="text-3xl md:text-5xl font-colvet">eatables.</h1>
-                            </Link>
-                            <div class="group relative inline-block">
-                                <div onClick={signOut}>
-                                    <Link href="/" as="/" data-tooltip-target="tooltip-default" className="text-3xl">
-                                        <FontAwesomeIcon className="text-lg md:text-2xl" icon={faRightFromBracket} />
-                                    </Link>
-                                    <div class="absolute top-full left-1/2 z-20 mt-1 -translate-x-1/2 whitespace-nowrap rounded bg-black py-[6px] px-4 text-sm font-semibold text-white opacity-0 group-hover:opacity-100">
-                                        Sign Out
-                                    </div>
+                                <div className="absolute top-full left-1/2 z-20 mt-1 -translate-x-1/2 whitespace-nowrap rounded bg-black py-[6px] px-4 text-sm font-semibold text-white opacity-0 group-hover:opacity-100">
+                                    Home
                                 </div>
+                            </Link>
+                            {/* <div className="group relative inline-block"> */}
+                            <div onClick={signOut}>
+                                <Link href="/" as="/" data-tooltip-target="tooltip-default" className="text-3xl">
+                                    <FontAwesomeIcon className="text-lg md:text-2xl" icon={faRightFromBracket} />
+                                </Link>
+                                {/* <div className="absolute top-full left-1/2 z-20 mt-1 -translate-x-1/2 whitespace-nowrap rounded bg-black py-[6px] px-4 text-sm font-semibold text-white opacity-0 group-hover:opacity-100">
+                                        Sign Out
+                                    </div> */}
+                                {/* </div> */}
                             </div>
                         </div>
                         <div className="flex flex-col items-center justify-center w-full pt-8 md:pt-16">
@@ -222,7 +225,7 @@ function UserProfile() {
                                     <FontAwesomeIcon icon={faGear} />
                                 </button>
                                 <button
-                                    className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-xl"
+                                    className="hover:scale-[1.2] text-white hover:text-brand even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-xl md:text-xl"
                                     type="button"
                                 >
                                     <FontAwesomeIcon icon={faFire} />

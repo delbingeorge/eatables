@@ -17,6 +17,7 @@
     "axios": "^1.2.3",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.4",
+    "firebase": "^9.17.1",
     "mongodb": "^4.13.0",
     "mysql2": "^3.1.0",
     "net": "^1.0.2",

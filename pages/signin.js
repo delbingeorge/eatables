@@ -4,7 +4,7 @@ import { getProviders, signIn } from "next-auth/react";
 import Link from "next/link";
 
 export default function SignIn({ providers }) {
-    console.log(providers);
+
     return (
         <div className="bg-brand bg-img min-h-screen flex items-center justify-center flex-col">
             <div className="flex flex-col items-center pb-2 md:pb-4">

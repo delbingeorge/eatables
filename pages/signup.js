@@ -177,7 +177,7 @@ function CreateAccount() {
                     ) : (
                         <p className="text-sm text-center md:text-lg font-poppy">
                             By signing up, you agree to all of our{" "}
-                            <Link href="toc" as="toc" className="underline">
+                            <Link href="#" as="#" className="underline">
                                 terms and conditions
                             </Link>
                             .

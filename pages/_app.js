@@ -8,6 +8,7 @@ export default function App({ Component, pageProps: { session, ...pageProps } })
         <>
             <SessionProvider session={session}>
                 <Head>
+                    {/* <link rel="icon" href="/images/eatables.png" /> */}
                     <title>Eatables Official</title>
                 </Head>
                 <NextNProgress
