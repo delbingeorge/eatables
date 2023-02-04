@@ -8,7 +8,7 @@ function Footer() {
         <footer className="bg-dense py-8 px-8 md:py-12 lg:py-10 lg:px-16">
             <div className="  lg:flex lg:items-center lg:justify-between py-12">
                 <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-                    <span className="block text-white">loves to share what you eat?</span><br></br>
+                    <span className="block text-white">loves to share what you eat?</span>
                     <span className="block text-brand">be a creator now!</span>
                 </h2>
                 <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0 ">

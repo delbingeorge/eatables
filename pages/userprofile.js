@@ -1,4 +1,12 @@
-import { faStar, faBookmark, faGear, faFire, faRightFromBracket, faHome } from "@fortawesome/free-solid-svg-icons";
+import {
+    faStar,
+    faBookmark,
+    faGear,
+    faFire,
+    faRightFromBracket,
+    faHome,
+    faCookieBite,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { signOut, useSession } from "next-auth/react";
 import Image from "next/image";
@@ -91,7 +99,7 @@ function UserProfile() {
         <>
             {session ? (
                 <>
-                    <div className="bg-brand bg-img w-full flex flex-col items-center py-4 px-4 md:py-0 md:px-16 outline-none border-none">
+                    <div className="bg-brand bg-img w-full flex flex-col items-center py-4 px-4 md:py-0 md:px-16">
                         <div className="flex items-center w-full justify-between md:pt-4">
                             <Link className="group relative inline-block" href="/search" as="/search">
                                 <h1 className="text-3xl md:text-5xl font-colvet">eatables.</h1>
@@ -129,9 +137,18 @@ function UserProfile() {
                                 <FontAwesomeIcon className="text-brand" icon={faFire} />
                                 <h3 className="font-poppy text-white font-medium text-sm md:text-lg">100 contributions</h3>
                             </div>
-                            <div className="flex items-center space-x-2 md:space-x-4 text-xl my-2 md:my-3 text-dense">
-                                <FontAwesomeIcon className="text-sm md:text-xl" icon={faBookmark} />
-                                <h3 className="font-poppy font-bold tracking-wider text-sm md:text-xl">YOUR SAVED</h3>
+                            <div className="flex items-center space-x-2 md:space-x-16">
+                                <div className="flex items-center space-x-2 md:space-x-3 text-xl md:my-0 py-3 text-dense">
+                                    <FontAwesomeIcon className="text-sm md:text-xl" icon={faBookmark} />
+                                    <h3 className="font-poppy font-bold tracking-wider text-sm md:text-xl">Your Fav</h3>
+                                </div>
+                                <Link
+                                    href="/fooddocs"
+                                    className="flex items-center space-x-2 md:space-x-3 text-xl md:my-0 py-3 text-dense"
+                                >
+                                    <FontAwesomeIcon className="text-sm md:text-xl" icon={faCookieBite} />
+                                    <h3 className="font-poppy font-bold tracking-wider text-sm md:text-xl">Food Doc</h3>
+                                </Link>
                             </div>
                             <hr className="h-[1px] bg-dense border-none w-3/4"></hr>
                         </div>
@@ -206,7 +223,7 @@ function UserProfile() {
                         </div>
 
                         <div
-                            className={`fixed bottom-16 md:bottom-4 w-80 bg-dense py-4 px-10 shadow rounded-xl ${
+                            className={`fixed bottom-3 md:bottom-4 w-80 bg-dense py-4 px-10 shadow rounded-xl ${
                                 hideNav && "hidden"
                             }`}
                         >
