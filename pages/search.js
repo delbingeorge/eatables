@@ -1,24 +1,41 @@
 import React, { useState, useEffect } from "react";
-import { faUser, faLocationDot, faFilter, faSearch, faClose } from "@fortawesome/free-solid-svg-icons";
+import { faUser, faLocationDot, faFilter, faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import axios from "axios";
 import { useSession } from "next-auth/react";
+import Image from "next/image";
+import OopsImg from "../pages/media/images/pngegg.png";
 
 function Search() {
     const { data: session } = useSession();
 
     const URL = "https://travel-advisor.p.rapidapi.com/restaurants/list-by-latlng";
     const [places, setPlaces] = useState([]);
-    const [showModal, setShowModal] = useState(false);
+
+    const [location, setLocation] = useState({ latitude: null, longitude: null });
+
+    useEffect(() => {
+        navigator.geolocation.getCurrentPosition((position) => {
+            setLocation({
+                latitude: position.coords.latitude,
+                longitude: position.coords.longitude,
+            });
+        });
+    }, []);
+
+    console.log(location.latitude);
+    console.log(location.longitude);
 
     const options = {
         params: {
+            // latitude: location.latitude,
+            // longitude: location.longitude,
             latitude: "12.873561",
             longitude: "74.845844",
         },
         headers: {
-            "X-RapidAPI-Key": "4661ea1fa3msh46f19ad3c752824p1ced86jsn547f75fb211c",
+            "X-RapidAPI-Key": "58bbc898ccmsh113e658b8f2033ap17f88ajsnf1eedfe3f8e7",
             "X-RapidAPI-Host": "travel-advisor.p.rapidapi.com",
         },
     };
@@ -40,10 +57,7 @@ function Search() {
         });
     }, []);
 
-    const showFilterModal = () => {
-        console.log("showing");
-        setShowModal(true);
-    };
+    console.log(places);
 
     return (
         <div className="bg-brand bg-img min-h-screen flex flex-col items-center  py-4 px-4 md:px-16">
@@ -75,13 +89,13 @@ function Search() {
                                 type="text"
                             />
 
-                            <button onClick={showFilterModal} className="px-6 py-3 mb-3 bg-off-brand">
+                            {/* <button onClick={showFilterModal} className="px-6 py-3 mb-3 bg-off-brand">
                                 <FontAwesomeIcon className="text-2xl text-center" icon={faFilter} />
                             </button>
 
                             <button className="px-6 py-3 mb-3 bg-off-brand hover:bg-black hover:text-white duration-300">
                                 <FontAwesomeIcon className="text-2xl text-center" icon={faSearch} />
-                            </button>
+                            </button> */}
                         </div>
                         <h1 className="text-left font-poppy">
                             nearby hotels <FontAwesomeIcon icon={faLocationDot} />
@@ -110,11 +124,29 @@ function Search() {
                                 </div>
                             )}
                         </div>
+                        {/* <div className="grid grid-cols-1 md:grid-cols-5 gap-2">
+                            {places.map((items, key) => {
+                                return items.name == undefined ? (
+                                    ""
+                                ) : items.rating >= 4.1 ? (
+                                    <button
+                                        key={key}
+                                        type="button"
+                                        className="py-2 px-4 bg-btn-black capitalize font-poppy text-center text-white rounded-md hover:bg-black duration-300"
+                                    >
+                                        {items.name}
+                                    </button>
+                                ) : (
+                                    ""
+                                );
+                            })}
+                        </div> */}
                     </div>
                 </>
             ) : (
                 <div className="flex items-center justify-center h-screen flex-col">
-                    <h1 className="text-lg font-poppy pb-5">Oops! you must be logged in to view this page!</h1>
+                    <Image width={1080} height={1080} className="w-64 pb-4" src={OopsImg}></Image>
+                    <h1 className="text-lg font-poppy pb-5 text-center">Oops! you must be logged in to view this page!</h1>
                     <Link href="/" as="/" className="py-2 px-8 bg-dense rounded-lg text-md font-poppy text-white">
                         Login
                     </Link>

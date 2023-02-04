@@ -2,7 +2,7 @@ import { useSession } from "next-auth/react";
 import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
-import { faL } from "@fortawesome/free-solid-svg-icons";
+import FoodDocsImg from "../pages/media/images/pngeggtwo.png";
 function FoodDocs() {
     const { data: session } = useSession();
 
@@ -15,7 +15,7 @@ function FoodDocs() {
 
     setTimeout(() => {
         setShow(true);
-    }, 6000);
+    }, 10000);
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -61,7 +61,8 @@ function FoodDocs() {
                         </div>
                     </Link>
 
-                    <form onSubmit={handleSubmit} className="mt-20 md:mt-40">
+                    <form onSubmit={handleSubmit} className="mt-12 md:mt-20 flex items-center flex-col">
+                        <Image width={1080} height={1080} className="w-32 pb-4" src={FoodDocsImg}></Image>
                         <h1 className="text-sm md:text-xl font-poppy text-center pb-4">Check how much kcals you need!</h1>
                         <div className="w-full flex flex-col items-center space-y-3">
                             <input
@@ -145,7 +146,8 @@ function FoodDocs() {
                         </Link>
                     </nav>
 
-                    <form onSubmit={handleSubmit} className="mt-20 md:mt-40">
+                    <form onSubmit={handleSubmit} className="mt-12 md:mt-20 flex items-center flex-col">
+                        <Image width={1080} height={1080} className="w-32 pb-4" src={FoodDocsImg}></Image>
                         <h1 className="text-xl font-poppy text-center pb-4">Check how much kcals you need!</h1>
                         <div className="w-full flex flex-col items-center space-y-3">
                             <input
@@ -208,7 +210,7 @@ function FoodDocs() {
                             onClick={() => {
                                 setShow(false);
                             }}
-                            className="flex md:items-center md:justify-between md:flex-row flex-col absolute z-50 px-8  py-12 md:px-16 bg-black w-full bottom-0"
+                            className="flex md:items-center md:justify-between md:flex-row flex-col absolute z-50 px-8  py-12 md:px-16 bg-zinc-800 w-full bottom-0"
                         >
                             <div>
                                 <h1 className=" text-xl font-bold tracking-tight md:text-2xl block text-white">

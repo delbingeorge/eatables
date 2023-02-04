@@ -124,7 +124,7 @@ function UserProfile() {
                                 alt="user profile"
                                 width={1080}
                                 height={1080}
-                                className="rounded-full border-black border-4 md:border-8 shadow-2xl w-32 h-32 md:w-44 md:h-44 object-cover"
+                                className="rounded-full border-black border-4 md:border-[6px] shadow-2xl w-32 h-32 md:w-44 md:h-44 object-cover"
                                 src={session.user.image}
                             />
                             <h1 className="font-poppy text-2xl md:text-3xl font-semibold pt-4 text-center">
