@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { faUser, faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faUser, faLocationDot, faFilter, faSearch, faClose } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import axios from "axios";
@@ -10,6 +10,7 @@ function Search() {
 
     const URL = "https://travel-advisor.p.rapidapi.com/restaurants/list-by-latlng";
     const [places, setPlaces] = useState([]);
+    const [showModal, setShowModal] = useState(false);
 
     const options = {
         params: {
@@ -34,14 +35,15 @@ function Search() {
     };
 
     useEffect(() => {
-        window.navigator.geolocation.getCurrentPosition((newPos) => setPosition(newPos), console.error);
-    }, []);
-
-    useEffect(() => {
         getPlacesData().then((data) => {
             setPlaces(data);
         });
     }, []);
+
+    const showFilterModal = () => {
+        console.log("showing");
+        setShowModal(true);
+    };
 
     return (
         <div className="bg-brand bg-img min-h-screen flex flex-col items-center  py-4 px-4 md:px-16">
@@ -66,30 +68,47 @@ function Search() {
                         {/* </div> */}
                     </div>
                     <div className="grid gap-3 grid-cols-1 pt-28 md:pt-[15rem] space-y-0 place-items-center">
-                        <input
-                            className="border-none outline-none md:mx-w-3/4 text-xl md:text-2xl px-6 py-3 md:px-44 mb-3 md:py-4 text-center placeholder:font-poppy placeholder:opacity-80 bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
-                            placeholder="Fudopia, Mars"
-                            type="text"
-                        />
+                        <div className="flex relative">
+                            <input
+                                className="border-none outline-none md:mx-w-2/4 text-xl md:text-2xl px-6 py-3 md:px-44 mb-3 md:py-4 text-center placeholder:font-poppy placeholder:opacity-80 bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
+                                placeholder="Fudopia, Mars"
+                                type="text"
+                            />
+
+                            <button onClick={showFilterModal} className="px-6 py-3 mb-3 bg-off-brand">
+                                <FontAwesomeIcon className="text-2xl text-center" icon={faFilter} />
+                            </button>
+
+                            <button className="px-6 py-3 mb-3 bg-off-brand hover:bg-black hover:text-white duration-300">
+                                <FontAwesomeIcon className="text-2xl text-center" icon={faSearch} />
+                            </button>
+                        </div>
                         <h1 className="text-left font-poppy">
                             nearby hotels <FontAwesomeIcon icon={faLocationDot} />
                         </h1>
                         <div className="grid grid-cols-1 md:grid-cols-5 gap-2">
-                            {places.map((items, key) => {
-                                return items.name == undefined ? (
-                                    ""
-                                ) : items.rating >= 4.1 ? (
-                                    <button
-                                        key={key}
-                                        type="button"
-                                        className="py-2 px-4 bg-btn-black capitalize font-poppy text-center text-white rounded-md hover:bg-black duration-300"
-                                    >
-                                        {items.name}
-                                    </button>
-                                ) : (
-                                    ""
-                                );
-                            })}
+                            {places != undefined ? (
+                                places.map((items, key) => {
+                                    return items.name == undefined ? (
+                                        ""
+                                    ) : items.rating >= 4.1 ? (
+                                        <button
+                                            key={key}
+                                            type="button"
+                                            className="py-2 px-4 bg-btn-black capitalize font-poppy text-center text-white rounded-md hover:bg-black duration-300"
+                                        >
+                                            {items.name}
+                                        </button>
+                                    ) : (
+                                        ""
+                                    );
+                                })
+                            ) : (
+                                <div className="flex flex-col items-center justify-center">
+                                    <p>something went wrong!</p>
+                                    <p>Check apps location access.</p>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </>

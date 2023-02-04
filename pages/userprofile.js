@@ -6,6 +6,7 @@ import {
     faRightFromBracket,
     faHome,
     faCookieBite,
+    faHeart,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { signOut, useSession } from "next-auth/react";
@@ -166,6 +167,7 @@ function UserProfile() {
                                         }}
                                     >
                                         <div className="flex flex-col items-center justify-center">
+                                        <FontAwesomeIcon className="text-2xl text-white pt-2" icon={faHeart} />
                                             <Image width={1080} className="w-28" alt={items.itemName} src={eatFavImg} />
                                             <div>
                                                 <h1 className="text-xl font-poppy font-medium text-white">
