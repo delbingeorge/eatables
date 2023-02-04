@@ -34,10 +34,14 @@ function Search() {
     };
 
     useEffect(() => {
+        window.navigator.geolocation.getCurrentPosition((newPos) => setPosition(newPos), console.error);
+    }, []);
+
+    useEffect(() => {
         getPlacesData().then((data) => {
             setPlaces(data);
         });
-    }, []); 
+    }, []);
 
     return (
         <div className="bg-brand bg-img min-h-screen flex flex-col items-center  py-4 px-4 md:px-16">
