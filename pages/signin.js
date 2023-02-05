@@ -2,10 +2,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGoogle, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { getProviders, signIn } from "next-auth/react";
 import Link from "next/link";
-import { useRouter } from "next/router";
 
 export default function SignIn({ providers }) {
-    const router = useRouter();
     return (
         <div className="bg-brand bg-img min-h-screen flex items-center justify-center flex-col">
             <div className="flex flex-col items-center pb-2 md:pb-4">
@@ -16,7 +14,7 @@ export default function SignIn({ providers }) {
                 <div className="flex items-center justify-center" key={provider.name}>
                     <button
                         className="text-sm md:text-lg font-poppy px-4 py-3 md:px-8 md:py-3 mt-2 bg-dense text-zinc-100 rounded-xl space-x-1"
-                        onClick={() => signIn(provider.id, { callbackUrl: router.query.callbackUrl })}
+                        onClick={() => signIn(provider.id, { callbackUrl: "/userprofile" })}
                     >
                         <FontAwesomeIcon icon={provider.id == "google" ? faGoogle : faTwitter} /> Sign in with
                         <span className="capitalize"> {provider.id}</span>
