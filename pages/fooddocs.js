@@ -39,9 +39,9 @@ function FoodDocs() {
         setResult(Math.round(BMR * factor));
     };
 
-        setInterval(() => {
-            setShow(true);
-        }, 20000);
+    setInterval(() => {
+        setShow(true);
+    }, 20000);
 
     return (
         <>
@@ -163,7 +163,7 @@ function FoodDocs() {
                             className="w-32 pb-4"
                             src={FoodDocsImg}
                         ></Image>
-                        <h1 className="text-xl font-poppy text-center pb-4">Check how much kcals you need!</h1>
+                        <h1 className="text-xl font-poppy text-center pb-4">Guest User</h1>
                         <div className="w-full flex flex-col items-center space-y-3">
                             <input
                                 className="border-none outline-none text-xl md:text-2xl px-2 py-3 md:px-6 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense placeholder:text-lg font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
@@ -216,7 +216,7 @@ function FoodDocs() {
                     </form>
                     {result !== 0 && (
                         <p className="text-xl font-poppy pt-8 text-center">
-                            Your daily calorie needs are approximatel y<span className="text-2xl font-bold "> {result} </span>
+                            Your daily calorie needs are approximately<span className="text-2xl font-bold "> {result} </span>
                             calories.
                         </p>
                     )}
