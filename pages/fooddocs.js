@@ -62,14 +62,14 @@ function FoodDocs() {
                     </Link>
 
                     <form onSubmit={handleSubmit} className="mt-12 md:mt-20 flex items-center flex-col">
-                        <Image
+                        {/* <Image
                             width={1080}
                             height={1080}
                             priority="true"
                             alt="Food Docs Image"
                             className="w-32 pb-4"
                             src={FoodDocsImg}
-                        ></Image>
+                        ></Image> */}
                         <h1 className="text-sm md:text-xl font-poppy text-center pb-4">Check how much kcals you need!</h1>
                         <div className="w-full flex flex-col items-center space-y-3">
                             <input
@@ -145,24 +145,33 @@ function FoodDocs() {
                             </div>
                         </Link>
 
-                        <Link
-                            href="/signup"
-                            className="py-[0.50rem] md:py-[0.50rem] hidden md:block bg-dense text-white px-9 md:px-7 text-sm font-poppy rounded-md hover:bg-dense duration-500 "
-                            type="button"
-                        >
-                            SignUp
-                        </Link>
+                        <div className="flex space-x-2">
+                            <Link
+                                href="/"
+                                className="py-[0.50rem] md:py-[0.50rem] hidden md:block bg-dense text-white px-9 md:px-7 text-sm font-poppy rounded-md hover:bg-dense duration-500 "
+                                type="button"
+                            >
+                                Login
+                            </Link>
+                            <Link
+                                href="/signup"
+                                className="py-[0.50rem] md:py-[0.50rem] hidden md:block bg-dense text-white px-9 md:px-7 text-sm font-poppy rounded-md hover:bg-dense duration-500 "
+                                type="button"
+                            >
+                                SignUp
+                            </Link>
+                        </div>
                     </nav>
 
                     <form onSubmit={handleSubmit} className="mt-12 md:mt-20 flex items-center flex-col">
-                        <Image
+                        {/* <Image
                             width={1080}
                             height={1080}
                             priority="true"
                             alt="Food Docs Image"
                             className="w-32 pb-4"
                             src={FoodDocsImg}
-                        ></Image>
+                        ></Image> */}
                         <h1 className="text-xl font-poppy text-center pb-4">Guest User</h1>
                         <div className="w-full flex flex-col items-center space-y-3">
                             <input
