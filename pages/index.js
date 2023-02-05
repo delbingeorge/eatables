@@ -2,13 +2,10 @@ import Link from "next/link";
 import React from "react";
 import Footer from "../component/footer";
 import { useState } from "react";
-import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 
 function Login() {
-    const router = useRouter();
-
     const [show, setShow] = useState(false);
 
     setTimeout(() => {
@@ -31,8 +28,6 @@ function Login() {
     const userLogin = () => {
         if (login.username === "" || login.password === "") {
             setShow(true);
-        } else {
-            router.push("/userprofile");
         }
     };
 

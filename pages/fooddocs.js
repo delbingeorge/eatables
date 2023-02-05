@@ -1,8 +1,8 @@
 import { useSession } from "next-auth/react";
 import Link from "next/link";
 import Image from "next/image";
-import React, { useEffect, useState } from "react";
-import FoodDocsImg from "../pages/media/images/pngeggtwo.png";
+import React, { useState } from "react";
+// import FoodDocsImg from "../pages/media/images/pngeggtwo.png";
 function FoodDocs() {
     const { data: session } = useSession();
 
@@ -70,7 +70,7 @@ function FoodDocs() {
                             className="w-32 pb-4"
                             src={FoodDocsImg}
                         ></Image> */}
-                        <h1 className="text-sm md:text-xl font-poppy text-center pb-4">Check how much kcals you need!</h1>
+                        <h1 className="text-sm md:text-xl font-poppy text-center pb-4">Find how much you need to consume?</h1>
                         <div className="w-full flex flex-col items-center space-y-3">
                             <input
                                 className="border-none outline-none text-xl md:text-2xl px-2 py-3 md:px-6 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense placeholder:text-lg font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
@@ -141,14 +141,14 @@ function FoodDocs() {
                                 src="https://cdn-icons-png.flaticon.com/512/64/64572.png"
                             />
                             <div className="flex flex-col pl-2 md:pl-3">
-                                <h1 className="font-poppy text-md md:text-xl font-semibold text-center">guest user</h1>
+                                <h1 className="font-poppy text-md md:text-xl font-medium text-center">@guestuser</h1>
                             </div>
                         </Link>
 
                         <div className="flex space-x-2">
                             <Link
                                 href="/"
-                                className="py-[0.50rem] md:py-[0.50rem] hidden md:block bg-dense text-white px-9 md:px-7 text-sm font-poppy rounded-md hover:bg-dense duration-500 "
+                                className="py-[0.50rem] md:py-[0.50rem] hidden md:block border-2 text-dense border-dense px-9 md:px-7 text-sm font-poppy rounded-md hover:bg-off-brand duration-500"
                                 type="button"
                             >
                                 Login
@@ -163,7 +163,7 @@ function FoodDocs() {
                         </div>
                     </nav>
 
-                    <form onSubmit={handleSubmit} className="mt-12 md:mt-20 flex items-center flex-col">
+                    <form onSubmit={handleSubmit} className="mt-12 md:mt-40 flex items-center flex-col">
                         {/* <Image
                             width={1080}
                             height={1080}
@@ -172,7 +172,7 @@ function FoodDocs() {
                             className="w-32 pb-4"
                             src={FoodDocsImg}
                         ></Image> */}
-                        <h1 className="text-xl font-poppy text-center pb-4">Guest User</h1>
+                        <h1 className="text-xl font-poppy text-center pb-4">Find how much you need to consume?</h1>
                         <div className="w-full flex flex-col items-center space-y-3">
                             <input
                                 className="border-none outline-none text-xl md:text-2xl px-2 py-3 md:px-6 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense placeholder:text-lg font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
