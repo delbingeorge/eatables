@@ -216,7 +216,7 @@ function FoodDocs() {
                     </form>
                     {result !== 0 && (
                         <p className="text-xl font-poppy pt-8 text-center">
-                            Your daily calorie needs are approximately<span className="text-2xl font-bold "> {result} </span>
+                            Your daily calorie needs are approximatel y<span className="text-2xl font-bold "> {result} </span>
                             calories.
                         </p>
                     )}
