@@ -1,7 +1,7 @@
 import { useSession } from "next-auth/react";
 import Link from "next/link";
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import FoodDocsImg from "../pages/media/images/pngeggtwo.png";
 function FoodDocs() {
     const { data: session } = useSession();
@@ -12,10 +12,6 @@ function FoodDocs() {
     const [gender, setGender] = useState("female");
     const [activityLevel, setActivityLevel] = useState("sedentary");
     const [result, setResult] = useState(0);
-
-    setTimeout(() => {
-        setShow(true);
-    }, 10000);
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -43,6 +39,10 @@ function FoodDocs() {
         setResult(Math.round(BMR * factor));
     };
 
+        setInterval(() => {
+            setShow(true);
+        }, 20000);
+
     return (
         <>
             {session ? (
@@ -52,17 +52,24 @@ function FoodDocs() {
                             alt="user profile"
                             width={1080}
                             height={1080}
-                            className="rounded-full border-black border-2 md:border-[3px] shadow-2xl w-12 h-12 md:w-16 md:h-16 object-cover"
+                            className="rounded-full border-black border-2 md:border-[3px] shadow-2xl w-8 h-8 md:w-12 md:h-12 object-cover"
                             src={session.user.image}
                         />
                         <div className="flex flex-col pl-2 md:pl-3">
                             <h1 className="font-poppy text-md md:text-xl font-semibold text-center">{session.user.name}</h1>
-                            <h2 className="font-poppy text-sm md:text-sm font-medium lowercase">@{session.user.name}</h2>
+                            {/* <h2 className="font-poppy text-sm md:text-sm font-medium lowercase">@{session.user.name}</h2> */}
                         </div>
                     </Link>
 
                     <form onSubmit={handleSubmit} className="mt-12 md:mt-20 flex items-center flex-col">
-                        <Image width={1080} height={1080} className="w-32 pb-4" src={FoodDocsImg}></Image>
+                        <Image
+                            width={1080}
+                            height={1080}
+                            priority="true"
+                            alt="Food Docs Image"
+                            className="w-32 pb-4"
+                            src={FoodDocsImg}
+                        ></Image>
                         <h1 className="text-sm md:text-xl font-poppy text-center pb-4">Check how much kcals you need!</h1>
                         <div className="w-full flex flex-col items-center space-y-3">
                             <input
@@ -116,7 +123,8 @@ function FoodDocs() {
                     </form>
                     {result !== 0 && (
                         <p className="text-xl font-poppy pt-8 text-center">
-                            Your daily calorie needs are approximately<span className="text-2xl font-bold "> {result} </span>
+                            {session.user.name}, your daily calorie needs are approximately
+                            <span className="text-2xl font-bold "> {result} </span>
                             calories.
                         </p>
                     )}
@@ -147,7 +155,14 @@ function FoodDocs() {
                     </nav>
 
                     <form onSubmit={handleSubmit} className="mt-12 md:mt-20 flex items-center flex-col">
-                        <Image width={1080} height={1080} className="w-32 pb-4" src={FoodDocsImg}></Image>
+                        <Image
+                            width={1080}
+                            height={1080}
+                            priority="true"
+                            alt="Food Docs Image"
+                            className="w-32 pb-4"
+                            src={FoodDocsImg}
+                        ></Image>
                         <h1 className="text-xl font-poppy text-center pb-4">Check how much kcals you need!</h1>
                         <div className="w-full flex flex-col items-center space-y-3">
                             <input
@@ -210,14 +225,14 @@ function FoodDocs() {
                             onClick={() => {
                                 setShow(false);
                             }}
-                            className="flex md:items-center md:justify-between md:flex-row flex-col absolute z-50 px-8  py-12 md:px-16 bg-zinc-800 w-full bottom-0"
+                            className="flex md:items-center md:justify-between md:flex-row flex-col absolute z-50 px-8  py-12 md:px-16 bg-zinc-800 w-full bottom-0 shadow-2xl"
                         >
                             <div>
-                                <h1 className=" text-xl font-bold tracking-tight md:text-2xl block text-white">
+                                <h1 className=" text-xl font-medium tracking-tight md:text-2xl block text-white">
                                     get more stats about your health
                                 </h1>
-                                <h1 className="text-xl font-bold tracking-tight md:text-2xl block text-brand">
-                                    join eatables!
+                                <h1 className="text-xl font-colvet tracking-normal md:text-xl block text-brand">
+                                    join <span className="text-4xl">eatables</span>.
                                 </h1>
                             </div>
                             <Link

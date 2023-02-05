@@ -124,20 +124,20 @@ function UserProfile() {
                                 alt="user profile"
                                 width={1080}
                                 height={1080}
-                                className="rounded-full border-black border-4 md:border-[6px] shadow-2xl w-32 h-32 md:w-44 md:h-44 object-cover"
+                                className="rounded-full border-black border-4 md:border-[6px] shadow-xl w-28 h-28 md:w-36 md:h-36   object-cover"
                                 src={session.user.image}
                             />
                             <h1 className="font-poppy text-2xl md:text-3xl font-semibold pt-4 text-center">
                                 {session.user.name}
                             </h1>
                             <div className="flex space-x-2">
-                                <h2 className="font-poppy text-lg md:text-xl font-medium lowercase">@{session.user.name}</h2>
+                                {/* <h2 className="font-poppy text-lg md:text-xl font-medium lowercase">@{session.user.name}</h2> */}
                             </div>
 
-                            <div className="flex items-center space-x-2 py-2 px-8 md:px-20 bg-dense rounded-xl text-xl my-3">
+                            {/* <div className="flex items-center space-x-2 py-2 px-8 md:px-20 bg-dense rounded-xl text-xl my-3">
                                 <FontAwesomeIcon className="text-brand" icon={faFire} />
                                 <h3 className="font-poppy text-white font-medium text-sm md:text-lg">100 contributions</h3>
-                            </div>
+                            </div> */}
                             <div className="flex items-center space-x-2 md:space-x-16">
                                 <div className="flex items-center space-x-2 md:space-x-3 text-xl md:my-0 py-3 text-dense">
                                     <FontAwesomeIcon className="text-sm md:text-xl" icon={faBookmark} />
@@ -167,7 +167,7 @@ function UserProfile() {
                                         }}
                                     >
                                         <div className="flex flex-col items-center justify-center">
-                                        <FontAwesomeIcon className="text-2xl text-white pt-2" icon={faHeart} />
+                                            <FontAwesomeIcon className="text-2xl text-white pt-2" icon={faHeart} />
                                             <Image width={1080} className="w-28" alt={items.itemName} src={eatFavImg} />
                                             <div>
                                                 <h1 className="text-xl font-poppy font-medium text-white">

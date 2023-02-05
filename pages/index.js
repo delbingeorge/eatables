@@ -101,12 +101,15 @@ function Login() {
                         </div>
                     </form>
                     <div className="md:space-x-4 flex flex-col md:flex-row items-center justify-center">
-                        <Link
+                        {/* <Link
                             href="/forgotpassword"
                             as="/forgotpassword"
                             className="font-poppy md:text-lg underline hover:text-gray-700"
                         >
                             forgot password?
+                        </Link> */}
+                        <Link href="/fooddocs" className="font-poppy md:text-lg underline hover:text-gray-700">
+                            guest login
                         </Link>
                         <Link href="/signup" as="/signup" className="font-poppy md:text-lg underline hover:text-gray-700">
                             create account

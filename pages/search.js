@@ -13,24 +13,8 @@ function Search() {
     const URL = "https://travel-advisor.p.rapidapi.com/restaurants/list-by-latlng";
     const [places, setPlaces] = useState([]);
 
-    const [location, setLocation] = useState({ latitude: null, longitude: null });
-
-    useEffect(() => {
-        navigator.geolocation.getCurrentPosition((position) => {
-            setLocation({
-                latitude: position.coords.latitude,
-                longitude: position.coords.longitude,
-            });
-        });
-    }, []);
-
-    console.log(location.latitude);
-    console.log(location.longitude);
-
     const options = {
         params: {
-            // latitude: location.latitude,
-            // longitude: location.longitude,
             latitude: "12.873561",
             longitude: "74.845844",
         },
@@ -57,8 +41,6 @@ function Search() {
         });
     }, []);
 
-    console.log(places);
-
     return (
         <div className="bg-brand bg-img min-h-screen flex flex-col items-center  py-4 px-4 md:px-16">
             {session ? (
@@ -73,7 +55,7 @@ function Search() {
                             as="/userprofile"
                             className="text-2xl font-poppy flex items-center space-x-2"
                         >
-                            <h1 className="hidden md:block font-semibold">{session.user.name}</h1>
+                            <h1 className="hidden md:block font-medium text-lg">{session.user.name}</h1>
                             <FontAwesomeIcon icon={faUser} />
                         </Link>
                         {/* <div className="hidden md:absolute top-full left-1/2 z-20 mt-1 -translate-x-1/2 whitespace-nowrap rounded bg-black py-[6px] px-4 text-sm font-semibold text-white opacity-0 group-hover:opacity-100">
