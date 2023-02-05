@@ -41,7 +41,7 @@ function FoodDocs() {
 
     setInterval(() => {
         setShow(true);
-    }, 20000);
+    }, 10000);
 
     return (
         <>
@@ -61,7 +61,7 @@ function FoodDocs() {
                         </div>
                     </Link>
 
-                    <form onSubmit={handleSubmit} className="mt-12 md:mt-20 flex items-center flex-col">
+                    <form onSubmit={handleSubmit} className="flex items-center justify-center h-[90vh] flex-col w-full">
                         {/* <Image
                             width={1080}
                             height={1080}
@@ -73,7 +73,7 @@ function FoodDocs() {
                         <h1 className="text-sm md:text-xl font-poppy text-center pb-4">Find how much you need to consume?</h1>
                         <div className="w-full flex flex-col items-center space-y-3">
                             <input
-                                className="border-none outline-none text-xl md:text-2xl px-2 py-3 md:px-6 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense placeholder:text-lg font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
+                                className="border-none outline-none w-full md:w-2/4 text-xl md:text-2xl px-2 py-3 md:px-6 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense placeholder:text-lg font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
                                 placeholder="enter your age"
                                 type="text"
                                 autoComplete="off"
@@ -83,7 +83,7 @@ function FoodDocs() {
                             />
 
                             <input
-                                className="border-none outline-none text-xl md:text-2xl px-2 py-3 md:px-6 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense placeholder:text-lg font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
+                                className="border-none outline-none w-full md:w-2/4 text-xl md:text-2xl px-2 py-3 md:px-6 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense placeholder:text-lg font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
                                 placeholder="weight in Kgs."
                                 type="text"
                                 autoComplete="off"
@@ -119,15 +119,15 @@ function FoodDocs() {
                             >
                                 Calculate
                             </button>
+                            {result !== 0 && (
+                                <p className=" text-md md:text-xl font-poppy pt-8 text-center">
+                                    {session.user.name}, your daily calorie needs are approximately
+                                    <span className="text-md md:text-2xl font-bold "> {result} </span>
+                                    calories.
+                                </p>
+                            )}
                         </div>
                     </form>
-                    {result !== 0 && (
-                        <p className="text-xl font-poppy pt-8 text-center">
-                            {session.user.name}, your daily calorie needs are approximately
-                            <span className="text-2xl font-bold "> {result} </span>
-                            calories.
-                        </p>
-                    )}
                 </div>
             ) : (
                 <div className="relative bg-brand bg-img w-full flex flex-col items-center py-4 px-4 md:py-0 md:px-16 min-h-screen">
@@ -163,7 +163,7 @@ function FoodDocs() {
                         </div>
                     </nav>
 
-                    <form onSubmit={handleSubmit} className="mt-12 md:mt-40 flex items-center flex-col">
+                    <form onSubmit={handleSubmit} className="h-[90vh] flex items-center justify-center flex-col w-full">
                         {/* <Image
                             width={1080}
                             height={1080}
@@ -172,10 +172,10 @@ function FoodDocs() {
                             className="w-32 pb-4"
                             src={FoodDocsImg}
                         ></Image> */}
-                        <h1 className="text-xl font-poppy text-center pb-4">Find how much you need to consume?</h1>
+                        <h1 className="text-2xl font-bold font-poppy text-center pb-4">The Meal Meters</h1>
                         <div className="w-full flex flex-col items-center space-y-3">
                             <input
-                                className="border-none outline-none text-xl md:text-2xl px-2 py-3 md:px-6 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense placeholder:text-lg font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
+                                className="border-none outline-none w-full md:w-2/4 text-xl md:text-2xl px-2 py-3 md:px-6 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense placeholder:text-lg font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
                                 placeholder="enter your age"
                                 type="text"
                                 autoComplete="off"
@@ -185,7 +185,7 @@ function FoodDocs() {
                             />
 
                             <input
-                                className="border-none outline-none text-xl md:text-2xl px-2 py-3 md:px-6 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense placeholder:text-lg font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
+                                className="border-none outline-none w-full md:w-2/4 text-xl md:text-2xl px-2 py-3 md:px-6 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense placeholder:text-lg font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
                                 placeholder="weight in Kgs."
                                 type="text"
                                 autoComplete="off"
@@ -221,14 +221,16 @@ function FoodDocs() {
                             >
                                 Calculate
                             </button>
+                            {result !== 0 && (
+                                <p className="text-xl font-poppy pt-8 text-center">
+                                    Your daily calorie needs are approximately
+                                    <span className="text-2xl font-bold "> {result} </span>
+                                    calories.
+                                </p>
+                            )}
                         </div>
                     </form>
-                    {result !== 0 && (
-                        <p className="text-xl font-poppy pt-8 text-center">
-                            Your daily calorie needs are approximately<span className="text-2xl font-bold "> {result} </span>
-                            calories.
-                        </p>
-                    )}
+
                     {show ? (
                         <div
                             onClick={() => {

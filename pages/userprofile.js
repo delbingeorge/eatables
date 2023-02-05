@@ -100,24 +100,17 @@ function UserProfile() {
         <>
             {session ? (
                 <>
-                    <div className="bg-brand bg-img w-full flex flex-col items-center py-4 px-4 md:py-0 md:px-16">
+                    <div className="bg-brand bg-img w-full flex flex-col items-center p-4 md:py-0 md:px-16">
                         <div className="flex items-center w-full justify-between md:pt-4">
                             <Link className="group relative inline-block" href="/search" as="/search">
-                                <h1 className="text-3xl md:text-5xl font-colvet">eatables.</h1>
+                                <h1 className="text-2xl md:text-4xl font-colvet">eatables.</h1>
                                 <div className="absolute top-full left-1/2 z-20 mt-1 -translate-x-1/2 whitespace-nowrap rounded bg-black py-[6px] px-4 text-sm font-semibold text-white opacity-0 group-hover:opacity-100">
                                     Home
                                 </div>
                             </Link>
-                            {/* <div className="group relative inline-block"> */}
-                            <div onClick={signOut}>
-                                <Link href="/" as="/" data-tooltip-target="tooltip-default" className="text-3xl">
-                                    <FontAwesomeIcon className="text-lg md:text-2xl" icon={faRightFromBracket} />
-                                </Link>
-                                {/* <div className="absolute top-full left-1/2 z-20 mt-1 -translate-x-1/2 whitespace-nowrap rounded bg-black py-[6px] px-4 text-sm font-semibold text-white opacity-0 group-hover:opacity-100">
-                                        Sign Out
-                                    </div> */}
-                                {/* </div> */}
-                            </div>
+                            <button onClick={signOut} data-tooltip-target="tooltip-default" className="text-3xl">
+                                <FontAwesomeIcon className="text-xl md:text-2xl" icon={faRightFromBracket} />
+                            </button>
                         </div>
                         <div className="flex flex-col items-center justify-center w-full pt-8 md:pt-16">
                             <Image
@@ -224,33 +217,7 @@ function UserProfile() {
                             })}
                         </div>
 
-                        <div
-                            className={`fixed bottom-3 md:bottom-4 w-80 bg-dense py-4 px-10 shadow rounded-xl ${
-                                hideNav && "hidden"
-                            }`}
-                        >
-                            <div className="container mx-auto flex justify-between items-center">
-                                <Link
-                                    href="/search"
-                                    as="/search"
-                                    className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-xl"
-                                >
-                                    <FontAwesomeIcon icon={faHome} />
-                                </Link>
-                                <button
-                                    className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-xl"
-                                    type="button"
-                                >
-                                    <FontAwesomeIcon icon={faGear} />
-                                </button>
-                                <button
-                                    className="hover:scale-[1.2] text-white hover:text-brand even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-xl md:text-xl"
-                                    type="button"
-                                >
-                                    <FontAwesomeIcon icon={faFire} />
-                                </button>
-                            </div>
-                        </div>
+                        {/* <  */}
                     </div>
                 </>
             ) : (

@@ -42,12 +42,12 @@ function Search() {
     }, []);
 
     return (
-        <div className="bg-brand bg-img min-h-screen flex flex-col items-center  py-4 px-4 md:px-16">
+        <div className="bg-brand bg-img min-h-screen flex flex-col items-center  p-4 md:px-16">
             {session ? (
                 <>
                     <div className="flex items-center w-full justify-between">
                         <Link href="/search" as="/search">
-                            <h1 className="text-4xl md:text-5xl font-colvet">eatables.</h1>
+                            <h1 className="text-2xl md:text-4xl font-colvet">eatables.</h1>
                         </Link>
                         {/* <div className="group relative inline-block"> */}
                         <Link
@@ -63,10 +63,10 @@ function Search() {
                             </div> */}
                         {/* </div> */}
                     </div>
-                    <div className="grid gap-3 grid-cols-1 pt-28 md:pt-[15rem] space-y-0 place-items-center">
-                        <div className="flex relative">
+                    <div className="grid gap-3 grid-cols-1 w-full pt-32 md:pt-[15rem] space-y-0 place-items-center">
+                        <div className="flex relative w-full md:w-2/4">
                             <input
-                                className="border-none outline-none md:mx-w-2/4 text-xl md:text-2xl px-6 py-3 md:px-44 mb-3 md:py-4 text-center placeholder:font-poppy placeholder:opacity-80 bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
+                                className="border-none outline-none w-full md:mx-w-2/4 text-lg md:text-2xl py-3 md:px-44 mb-3 md:py-4 text-center placeholder:font-poppy placeholder:opacity-80 bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
                                 placeholder="Fudopia, Mars"
                                 type="text"
                             />
