@@ -13,8 +13,8 @@ export default NextAuth({
         //     clientSecret: process.env.TWITTER_CLIENT_SECRET,
         // }),
     ],
-    secret: process.env.SECRET,
     pages: {
         signIn: "/signin",
     },
+    secret: process.env.SECRET,
 });
