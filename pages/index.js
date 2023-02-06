@@ -53,7 +53,7 @@ function Login() {
                     <form className="flex flex-col items-center justify-center py-16 md:py-36 md:space-y-4 space-y-2">
                         <div className="flex flex-col items-center pb-2 md:pb-4">
                             <Link href="/" as="/" className="text-5xl md:text-6xl font-colvet">
-                                eatables app
+                                eatables.
                             </Link>
                             <p className="font-poppy text-sm md:text-md">Find your next favorite.</p>
                         </div>
