@@ -12,14 +12,16 @@ function Search() {
 
     const URL = "https://travel-advisor.p.rapidapi.com/restaurants/list-by-latlng";
     const [places, setPlaces] = useState([]);
+    const [latitude, setLatitude] = useState(null);
+    const [longitude, setLongitude] = useState(null);
 
     const options = {
         params: {
-            latitude: "12.873561",
-            longitude: "74.845844",
+            latitude: latitude,
+            longitude: longitude,
         },
         headers: {
-            "X-RapidAPI-Key": "58bbc898ccmsh113e658b8f2033ap17f88ajsnf1eedfe3f8e7",
+            "X-RapidAPI-Key": "58a6a646e7msh85a242a8db4265fp158cddjsnae6087866e44",
             "X-RapidAPI-Host": "travel-advisor.p.rapidapi.com",
         },
     };
@@ -36,13 +38,27 @@ function Search() {
     };
 
     useEffect(() => {
-        getPlacesData().then((data) => {
-            setPlaces(data);
-        });
+        navigator.geolocation.getCurrentPosition(
+            (position) => {
+                setLatitude(position.coords.latitude);
+                setLongitude(position.coords.longitude);
+            },
+            () => {
+                console.error("Error getting location");
+            }
+        );
     }, []);
 
+    useEffect(() => {
+        if (latitude && longitude) {
+            getPlacesData().then((data) => {
+                setPlaces(data);
+            });
+        }
+    }, [latitude, longitude]);
+
     return (
-        <div className="bg-brand bg-img min-h-screen flex flex-col items-center  p-4 md:px-16">
+        <div className="bg-brand bg-img min-h-screen flex flex-col items-center p-4 md:px-16">
             {session ? (
                 <>
                     <div className="flex items-center w-full justify-between">
@@ -82,12 +98,12 @@ function Search() {
                         <h1 className="text-left font-poppy">
                             nearby hotels <FontAwesomeIcon icon={faLocationDot} />
                         </h1>
-                        <div className="grid grid-cols-1 md:grid-cols-5 gap-2">
+                        <div className="grid grid-cols-1 md:grid-cols-5 gap-2 w-full md:w-3/4">
                             {places != undefined ? (
                                 places.map((items, key) => {
                                     return items.name == undefined ? (
                                         ""
-                                    ) : items.rating >= 4.1 ? (
+                                    ) : items.rating >= 4 ? (
                                         <button
                                             key={key}
                                             type="button"
@@ -127,7 +143,7 @@ function Search() {
                 </>
             ) : (
                 <div className="flex items-center justify-center h-screen flex-col">
-                    <Image width={1080} height={1080} className="w-64 pb-4" src={OopsImg}></Image>
+                    <Image width={1080} height={1080} alt="Login Required Image" className="w-64 pb-4" src={OopsImg}></Image>
                     <h1 className="text-lg font-poppy pb-5 text-center">Oops! you must be logged in to view this page!</h1>
                     <Link href="/" as="/" className="py-2 px-8 bg-dense rounded-lg text-md font-poppy text-white">
                         Login
