@@ -103,10 +103,10 @@ function Login() {
                         >
                             forgot password?
                         </Link> */}
-                        <Link href="/fooddocs" className="font-poppy md:text-lg underline hover:text-gray-700">
+                        <Link href="/fooddocs" className="font-poppy md:text-lg underline hover:text-slate-800">
                             guest login
                         </Link>
-                        <Link href="/signup" as="/signup" className="font-poppy md:text-lg underline hover:text-gray-700">
+                        <Link href="/signup" as="/signup" className="font-poppy md:text-lg underline hover:text-slate-800">
                             create account
                         </Link>
                     </div>
