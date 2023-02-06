@@ -88,7 +88,7 @@ function CreateAccount() {
                         </div>
                     </div>
                 </div>
-                <form className="flex flex-col items-center justify-center py-6  md:py-28 md:space-y-4 space-y-2">
+                <form className="flex flex-col items-center justify-center py-40 md:py-32 md:space-y-4 space-y-2">
                     <div className="flex flex-col items-center pb-2 md:pb-4">
                         <Link href="/" as="/" className="outline-none text-5xl md:text-6xl font-colvet">
                             eatables.

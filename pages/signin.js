@@ -17,7 +17,7 @@ export default function SignIn({ providers }) {
                         onClick={() => signIn(provider.id, { callbackUrl: "/userprofile" })}
                     >
                         <FontAwesomeIcon icon={provider.id == "google" ? faGoogle : faTwitter} /> Sign in with
-                        <span className="capitalize"> {provider.id}</span>
+                        <span className="capitalize pl-[2px]">{provider.id}</span>
                     </button>
                 </div>
             ))}

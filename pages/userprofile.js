@@ -85,6 +85,7 @@ const Saved = [
 function UserProfile() {
     const { data: session } = useSession();
     const [hideNav, setHideNav] = useState(false);
+    console.log(session);
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
@@ -216,7 +217,33 @@ function UserProfile() {
                                 );
                             })}
                         </div>
-
+                        <div
+                            className={`fixed bottom-3 md:bottom-4 w-80 bg-dense py-4 px-10 shadow rounded-xl ${
+                                hideNav && "hidden"
+                            }`}
+                        >
+                            <div className="container mx-auto flex justify-between items-center">
+                                <Link
+                                    href="/search"
+                                    as="/search"
+                                    className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-xl"
+                                >
+                                    <FontAwesomeIcon icon={faHome} />
+                                </Link>
+                                <button
+                                    className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-xl"
+                                    type="button"
+                                >
+                                    <FontAwesomeIcon icon={faGear} />
+                                </button>
+                                <button
+                                    className="hover:scale-[1.2] text-white hover:text-brand even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-xl md:text-xl"
+                                    type="button"
+                                >
+                                    <FontAwesomeIcon icon={faFire} />
+                                </button>
+                            </div>
+                        </div>
                         {/* <  */}
                     </div>
                 </>

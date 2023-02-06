@@ -79,10 +79,10 @@ function Login() {
                         </div>
                         <button
                             onClick={userLogin}
-                            className="py-[0.50rem] md:py-[0.70rem] bg-dense text-white px-9 md:px-12 text-xl font-poppy rounded-md hover:bg-dense duration-500 "
+                            className="py-[0.50rem] md:py-[0.70rem] bg-dense tracking-wider text-white px-9 md:px-12 text-xl font-poppy rounded-md hover:bg-dense duration-500 "
                             type="button"
                         >
-                            Explore
+                            explore
                         </button>
                         <h1 className="font-poppy text-sm">OR</h1>
                         <div className="flex items-center justify-center space-x-3">
@@ -91,7 +91,7 @@ function Login() {
                                 className=" bg-dense text-white px-6 py-3 text-sm font-poppy rounded-md hover:bg-dense duration-500"
                                 type="button"
                             >
-                                Other sign in options
+                                other sign in options
                             </Link>
                         </div>
                     </form>
@@ -104,7 +104,7 @@ function Login() {
                             forgot password?
                         </Link> */}
                         <Link href="/fooddocs" className="font-poppy md:text-lg underline hover:text-slate-800">
-                            Guest sing in
+                            Guest sign in
                         </Link>
                         <Link href="/signup" as="/signup" className="font-poppy md:text-lg underline hover:text-slate-800">
                             Create account

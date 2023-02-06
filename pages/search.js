@@ -1,13 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {
-    faUser,
-    faLocationDot,
-    faFilter,
-    faSearch,
-    faStar,
-    faLeaf,
-    faDrumstickBite,
-} from "@fortawesome/free-solid-svg-icons";
+import { faUser, faLocationDot, faStar, faLeaf, faDrumstickBite } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import axios from "axios";
@@ -20,53 +12,56 @@ function Search() {
     const { data: session } = useSession();
 
     const URL = "https://travel-advisor.p.rapidapi.com/restaurants/list-by-latlng";
-    const [places, setPlaces] = useState([]);
+    const [places, setPlaces] = useState(data);
     const [latitude, setLatitude] = useState(null);
     const [longitude, setLongitude] = useState(null);
     const [rating, setRating] = useState(0);
     const [type, setType] = useState("");
+    if (places == undefined) {
+        setPlaces(data);
+    }
 
-    const options = {
-        params: {
-            latitude: latitude,
-            longitude: longitude,
-        },
-        headers: {
-            "X-RapidAPI-Key": "58a6a646e7msh85a242a8db4265fp158cddjsnae6087866e44",
-            "X-RapidAPI-Host": "travel-advisor.p.rapidapi.com",
-        },
-    };
+    // const options = {
+    //     params: {
+    //         latitude: latitude,
+    //         longitude: longitude,
+    //     },
+    //     headers: {
+    //         "X-RapidAPI-Key": "58a6a646e7msh85a242a8db4265fp158cddjsnae6087866e44",
+    //         "X-RapidAPI-Host": "travel-advisor.p.rapidapi.com",
+    //     },
+    // };
 
-    const getPlacesData = async () => {
-        try {
-            const {
-                data: { data },
-            } = await axios.get(URL, options);
-            return data;
-        } catch (error) {
-            console.log(error);
-        }
-    };
+    // const getPlacesData = async () => {
+    //     try {
+    //         const {
+    //             data: { data },
+    //         } = await axios.get(URL, options);
+    //         return data;
+    //     } catch (error) {
+    //         console.log(error);
+    //     }
+    // };
 
-    useEffect(() => {
-        navigator.geolocation.getCurrentPosition(
-            (position) => {
-                setLatitude(position.coords.latitude);
-                setLongitude(position.coords.longitude);
-            },
-            () => {
-                console.error("Error getting location");
-            }
-        );
-    }, []);
+    // useEffect(() => {
+    //     navigator.geolocation.getCurrentPosition(
+    //         (position) => {
+    //             setLatitude(position.coords.latitude);
+    //             setLongitude(position.coords.longitude);
+    //         },
+    //         () => {
+    //             console.error("Error getting location");
+    //         }
+    //     );
+    // }, []);
 
-    useEffect(() => {
-        if (latitude && longitude) {
-            getPlacesData().then((data) => {
-                setPlaces(data);
-            });
-        }
-    }, [latitude, longitude]);
+    // useEffect(() => {
+    //     if (latitude && longitude) {
+    //         getPlacesData().then((data) => {
+    //             setPlaces(data);
+    //         });
+    //     }
+    // }, [latitude, longitude]);
 
     const handleRating = (count) => {
         setRating(count);
@@ -84,7 +79,6 @@ function Search() {
                         <Link href="/search" as="/search">
                             <h1 className="text-2xl md:text-4xl font-colvet">eatables.</h1>
                         </Link>
-                        {/* <div className="group relative inline-block"> */}
                         <Link
                             href="/userprofile"
                             as="/userprofile"
@@ -93,15 +87,13 @@ function Search() {
                             <h1 className="hidden md:block font-medium text-lg">{session.user.name}</h1>
                             <FontAwesomeIcon icon={faUser} />
                         </Link>
-                        {/* <div className="hidden md:absolute top-full left-1/2 z-20 mt-1 -translate-x-1/2 whitespace-nowrap rounded bg-black py-[6px] px-4 text-sm font-semibold text-white opacity-0 group-hover:opacity-100">
-                                Your Profile
-                            </div> */}
-                        {/* </div> */}
                     </div>
-                    <div className="grid gap-3 grid-cols-1 w-full mt-16 md:mt-32 space-y-0 place-items-center">
+                    <div className="grid gap-3 grid-cols-1 w-full mt-16 md:mt-40 space-y-0 place-items-center">
                         <div className="flex items-center justify-around relative w-full md:w-2/4">
-                            <div className="flex items-center justify-center flex-col">
-                                <h1 className="font-poppy text-2xl md:text-3xl pb-3 font-bold text-center">find your favorite!</h1>
+                            <div className="flex items-center justify-center flex-col w-full">
+                                <h1 className="font-poppy text-2xl md:text-3xl pb-3 font-bold text-center">
+                                    find your favorite!
+                                </h1>
                                 <input
                                     className="border-none outline-none w-full md:mx-w-2/4 text-lg md:text-2xl py-3 md:px-44 mb-3 md:py-4 text-center placeholder:font-poppy placeholder:opacity-80 bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
                                     placeholder="Fudopia, Mars"
@@ -121,10 +113,10 @@ function Search() {
                                             </button>
                                         ))}
                                     </div>
-                                    <div className="px-6 py-2 md:py-3 md:px-9 bg-off-brand flex items-center justify-center space-x-4 rounded-md">
+                                    {/* <div className="px-6 py-2 md:py-3 md:px-9 bg-off-brand flex items-center justify-center space-x-4 rounded-md">
                                         <button
                                             className="text-lg md:text-xl font-semibold hover:text-slate-700"
-                                            onClick={() => handleType("Veg")}
+                                            onClick={() => handleType("Vegetarian Friendly")}
                                         >
                                             <FontAwesomeIcon icon={faLeaf} className="mr-2" />
                                             Veg
@@ -136,17 +128,9 @@ function Search() {
                                             <FontAwesomeIcon icon={faDrumstickBite} className="mr-2" />
                                             Non
                                         </button>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
-
-                            {/* <button onClick={showFilterModal} className="px-6 py-3 mb-3 bg-off-brand">
-                                <FontAwesomeIcon className="text-2xl text-center" icon={faFilter} />
-                            </button>
-
-                            <button className="px-6 py-3 mb-3 bg-off-brand hover:bg-black hover:text-white duration-300">
-                                <FontAwesomeIcon className="text-2xl text-center" icon={faSearch} />
-                            </button> */}
                         </div>
                         <h1 className="text-left font-poppy">
                             nearby hotels <FontAwesomeIcon icon={faLocationDot} />
@@ -175,23 +159,6 @@ function Search() {
                                 </div>
                             )}
                         </div>
-                        {/* <div className="grid grid-cols-1 md:grid-cols-5 gap-2">
-                            {places.map((items, key) => {
-                                return items.name == undefined ? (
-                                    ""
-                                ) : items.rating >= 4.1 ? (
-                                    <button
-                                        key={key}
-                                        type="button"
-                                        className="py-2 px-4 bg-btn-black capitalize font-poppy text-center text-white rounded-md hover:bg-black duration-300"
-                                    >
-                                        {items.name}
-                                    </button>
-                                ) : (
-                                    ""
-                                );
-                            })}
-                        </div> */}
                     </div>
                 </>
             ) : (
