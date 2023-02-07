@@ -9,6 +9,7 @@ import {
     faHeart,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { data } from "autoprefixer";
 import { signOut, useSession } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
@@ -85,7 +86,6 @@ const Saved = [
 function UserProfile() {
     const { data: session } = useSession();
     const [hideNav, setHideNav] = useState(false);
-    console.log(session);
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
@@ -125,9 +125,10 @@ function UserProfile() {
                                 {session.user.name}
                             </h1>
                             <div className="flex space-x-2">
-                                {/* <h2 className="font-poppy text-lg md:text-xl font-medium lowercase">@{session.user.name}</h2> */}
+                                <h2 className="font-poppy text-lg md:text-xl font-medium lowercase">
+                                    {session.user.email.substring(0, session.user.email.indexOf("@"))}
+                                </h2>
                             </div>
-
                             {/* <div className="flex items-center space-x-2 py-2 px-8 md:px-20 bg-dense rounded-xl text-xl my-3">
                                 <FontAwesomeIcon className="text-brand" icon={faFire} />
                                 <h3 className="font-poppy text-white font-medium text-sm md:text-lg">100 contributions</h3>
@@ -218,33 +219,32 @@ function UserProfile() {
                             })}
                         </div>
                         <div
-                            className={`fixed bottom-3 md:bottom-4 w-80 bg-dense py-4 px-10 shadow rounded-xl ${
+                            className={`fixed bottom-3 md:bottom-4 w-64 bg-dense py-4 px-3 shadow-sm rounded-xl ${
                                 hideNav && "hidden"
                             }`}
                         >
-                            <div className="container mx-auto flex justify-between items-center">
+                            <div className="container mx-auto flex justify-around items-center">
                                 <Link
                                     href="/search"
                                     as="/search"
-                                    className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-xl"
+                                    className="hover:scale-[1.1]  hover:text-brand even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-xl"
                                 >
                                     <FontAwesomeIcon icon={faHome} />
                                 </Link>
-                                <button
+                                {/* <button
                                     className="hover:scale-[1.1] even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-white text-xl md:text-xl"
                                     type="button"
                                 >
                                     <FontAwesomeIcon icon={faGear} />
-                                </button>
+                                </button> */}
                                 <button
-                                    className="hover:scale-[1.2] text-white hover:text-brand even:hover:rotate-[100deg] duration-500 flex items-center justify-center text-xl md:text-xl"
+                                    className="hover:scale-[1.2] text-white hover:text-brand duration-500 flex items-center justify-center text-xl md:text-xl"
                                     type="button"
                                 >
                                     <FontAwesomeIcon icon={faFire} />
                                 </button>
                             </div>
                         </div>
-                        {/* <  */}
                     </div>
                 </>
             ) : (

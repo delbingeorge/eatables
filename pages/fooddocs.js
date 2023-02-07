@@ -2,7 +2,6 @@ import { useSession } from "next-auth/react";
 import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
-// import FoodDocsImg from "../pages/media/images/pngeggtwo.png";
 function FoodDocs() {
     const { data: session } = useSession();
 
@@ -60,16 +59,7 @@ function FoodDocs() {
                             {/* <h2 className="font-poppy text-sm md:text-sm font-medium lowercase">@{session.user.name}</h2> */}
                         </div>
                     </Link>
-
                     <form onSubmit={handleSubmit} className="flex items-center justify-center h-[90vh] flex-col w-full">
-                        {/* <Image
-                            width={1080}
-                            height={1080}
-                            priority="true"
-                            alt="Food Docs Image"
-                            className="w-32 pb-4"
-                            src={FoodDocsImg}
-                        ></Image> */}
                         <h1 className="text-sm md:text-xl font-poppy text-center pb-4">Find how much you need to consume?</h1>
                         <div className="w-full flex flex-col items-center space-y-3">
                             <input
@@ -78,10 +68,10 @@ function FoodDocs() {
                                 type="text"
                                 autoComplete="off"
                                 id="age"
+                                required
                                 value={age}
                                 onChange={(e) => setAge(e.target.value)}
                             />
-
                             <input
                                 className="border-none outline-none w-full md:w-2/4 text-xl md:text-2xl px-2 py-3 md:px-6 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense placeholder:text-lg font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
                                 placeholder="weight in Kgs."
@@ -89,6 +79,7 @@ function FoodDocs() {
                                 autoComplete="off"
                                 id="weight"
                                 value={weight}
+                                required
                                 onChange={(e) => setWeight(e.target.value)}
                             />
                             <select
@@ -112,7 +103,6 @@ function FoodDocs() {
                                 <option value="active">Active</option>
                                 <option value="very-active">Very Active</option>
                             </select>
-
                             <button
                                 className="py-[0.50rem] md:py-[0.50rem] bg-dense  text-white px-9 md:px-6 text-md font-poppy rounded-md hover:bg-dense duration-500"
                                 type="submit"
@@ -144,7 +134,6 @@ function FoodDocs() {
                                 <h1 className="font-poppy text-md md:text-xl font-medium text-center">@guestuser</h1>
                             </div>
                         </Link>
-
                         <div className="flex space-x-2">
                             <Link
                                 href="/"
@@ -162,16 +151,7 @@ function FoodDocs() {
                             </Link>
                         </div>
                     </nav>
-
                     <form onSubmit={handleSubmit} className="h-[90vh] flex items-center justify-center flex-col w-full">
-                        {/* <Image
-                            width={1080}
-                            height={1080}
-                            priority="true"
-                            alt="Food Docs Image"
-                            className="w-32 pb-4"
-                            src={FoodDocsImg}
-                        ></Image> */}
                         <h1 className="text-2xl font-bold font-poppy text-center pb-4">The Meal Meters</h1>
                         <div className="w-full flex flex-col items-center space-y-3">
                             <input
@@ -183,7 +163,6 @@ function FoodDocs() {
                                 value={age}
                                 onChange={(e) => setAge(e.target.value)}
                             />
-
                             <input
                                 className="border-none outline-none w-full md:w-2/4 text-xl md:text-2xl px-2 py-3 md:px-6 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense placeholder:text-lg font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
                                 placeholder="weight in Kgs."
@@ -214,7 +193,6 @@ function FoodDocs() {
                                 <option value="active">Active</option>
                                 <option value="very-active">Very Active</option>
                             </select>
-
                             <button
                                 className="py-[0.50rem] md:py-[0.50rem] bg-dense  text-white px-9 md:px-6 text-md font-poppy rounded-md hover:bg-dense duration-500"
                                 type="submit"
@@ -230,7 +208,6 @@ function FoodDocs() {
                             )}
                         </div>
                     </form>
-
                     {show ? (
                         <div
                             onClick={() => {

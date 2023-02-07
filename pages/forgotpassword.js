@@ -53,7 +53,6 @@ function ForgotPassword() {
             ) : (
                 ""
             )}
-
             <div className="bg-brand bg-img min-h-screen grid">
                 <div className="flex flex-col items-center justify-center">
                     <form className="flex flex-col items-center justify-center py-16 md:py-36 md:space-y-4 space-y-2">
