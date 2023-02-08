@@ -2,69 +2,69 @@ import { faCheckCircle, faUser, faClose } from "@fortawesome/free-solid-svg-icon
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import React from "react";
+import React, { useContext } from "react";
 import { useState } from "react";
+import AppContext from "../component/AppContext";
 import Footer from "../component/footer";
 
 function CreateAccount() {
-    const router = useRouter();
+    // const router = useRouter();
+    // const [show, setShow] = useState();
+    // const [signup, setSignUp] = useState({
+    //     "full-name": "",
+    //     username: "",
+    //     "mail-address": "",
+    //     password: "",
+    //     "confirm-password": "",
+    // });
 
-    const [show, setShow] = useState(false);
-    const [signup, setSignUp] = useState({
-        "full-name": "",
-        username: "",
-        "mail-address": "",
-        password: "",
-        "confirm-password": "",
-    });
+    // setTimeout(() => {
+    //     setShow(false);
+    // }, 6000);
 
-    setTimeout(() => {
-        setShow(false);
-    }, 6000);
+    // function handleChange(event) {
+    //     const { name, value } = event.target;
+    //     setSignUp((prevState) => ({
+    //         ...prevState,
+    //         [name]: value,
+    //     }));
+    // }
 
-    function handleChange(event) {
-        const { name, value } = event.target;
-        setSignUp((prevState) => ({
-            ...prevState,
-            [name]: value,
-        }));
-    }
+    // const userSignUp = () => {
+    //     if (
+    //         signup["full-name"] === "" ||
+    //         signup.username === "" ||
+    //         signup["mail-address"] === "" ||
+    //         signup.password === "" ||
+    //         signup["confirm-password"] === ""
+    //     ) {
+    //         setShow(true);
+    //     } else {
+    //         router.push("/");
+    //     }
+    // };
 
-    const userSignUp = () => {
-        if (
-            signup["full-name"] === "" ||
-            signup.username === "" ||
-            signup["mail-address"] === "" ||
-            signup.password === "" ||
-            signup["confirm-password"] === ""
-        ) {
-            setShow(true);
-        } else {
-            router.push("/");
-        }
-    };
-
-    {
-        show == true ? (
-            <div className="py-2 px-6 rounded-sm text-white bg-red-500 absolute z-50 shadow-xl flex items-center justify-center space-x-2 top-0 md:bottom-0 m-3">
-                <h1 className="text-lg font-poppy">Incorrect details</h1>
-                <button
-                    className="text-2xl"
-                    onClick={() => {
-                        setShow(!show);
-                    }}
-                >
-                    <FontAwesomeIcon icon={faClose} />
-                </button>
-            </div>
-        ) : (
-            ""
-        );
-    }
+    // {
+    //     show == true ? (
+    //         <div className="py-2 px-6 rounded-sm text-white bg-red-500 absolute z-50 shadow-xl flex items-center justify-center space-x-2 top-0 md:bottom-0 m-3">
+    //             <h1 className="text-lg font-poppy">Incorrect details</h1>
+    //             <button
+    //                 className="text-2xl"
+    //                 onClick={() => {
+    //                     setShow(!show);
+    //                 }}
+    //             >
+    //                 <FontAwesomeIcon icon={faClose} />
+    //             </button>
+    //         </div>
+    //     ) : (
+    //         ""
+    //     );
+    // }
 
     return (
         <>
-            {show == true ? (
+            {/* {show == true ? (
                 <div className="py-2 px-6 rounded-sm text-white bg-red-500 absolute z-50 shadow-xl flex items-center justify-center space-x-4 bottom-0 m-3">
                     <h1 className="text-sm md:text-lg font-poppy">Incorrect signup details</h1>
                     <button
@@ -78,23 +78,16 @@ function CreateAccount() {
                 </div>
             ) : (
                 ""
-            )}
+            )} */}
             <div className="bg-brand bg-img min-h-screen flex flex-col items-center py-4 px-4 md:px-16">
                 <div className="flex items-center w-full justify-between md:pt-4">
-                    <div className="">
-                        <div className="flex items-center">
-                            <FontAwesomeIcon className="text-sm md:text-lg" icon={faUser} />
-                            <h2 className="pl-1 md:pl-2 font-poppy font-medium text-sm md:text-lg">create account</h2>
-                        </div>
+                    <div className="flex items-center">
+                        <FontAwesomeIcon className="text-sm md:text-lg" icon={faUser} />
+                        <h2 className="pl-1 md:pl-2 font-poppy font-medium text-sm md:text-lg">create account</h2>
                     </div>
                 </div>
-                <form className="flex flex-col items-center justify-center py-40 md:py-32 md:space-y-4 space-y-2">
-                    <div className="flex flex-col items-center pb-2 md:pb-4">
-                        <Link href="/" as="/" className="outline-none text-5xl md:text-6xl font-colvet">
-                            eatables.
-                        </Link>
-                        <p className="font-poppy text-sm md:text-md">Find your next favorite.</p>
-                    </div>
+                {/* <form className="flex flex-col items-center justify-center py-40 md:py-32 md:space-y-4 space-y-2">
+                    
                     <div className="grid md:grid-cols-2 md:grid-rows-2 grid-cols-1 gap-3">
                         <input
                             className="border-none outline-none text-xl md:text-2xl px-3 py-3  placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s] md:col-span-2"
@@ -199,7 +192,72 @@ function CreateAccount() {
                         </Link>
                         .
                     </p>
-                </form>
+                </form> */}
+                <div className="flex items-center justify-center flex-col h-[90vh] my-12 md:mt-0">
+                    <div className="flex flex-col items-center justify-center pb-2 md:pb-4">
+                        <Link href="/" as="/" className="outline-none text-5xl md:text-6xl font-colvet">
+                            eatables.
+                        </Link>
+                        <p className="font-poppy text-sm md:text-md">Find your next favorite.</p>
+                    </div>
+
+                    <form
+                        action="/api/register"
+                        method="post"
+                        className="grid md:grid-cols-2 md:grid-rows-2 grid-cols-1 gap-3 mt-4 md:mt-0 mb-8 place-items-center"
+                    >
+                        <input
+                            type="text"
+                            name="fullname"
+                            className="border-none outline-none w-full text-xl md:text-2xl px-3 py-3  placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s] md:col-span-2"
+                            placeholder="fullname"
+                            autoComplete="off"
+                        />
+                        <input
+                            type="text"
+                            name="username"
+                            className="border-none w-full outline-none text-xl md:text-2xl px-6 py-3 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
+                            placeholder="username"
+                            maxLength={15}
+                            minLength={4}
+                            autoComplete="off"
+                        />
+
+                        <input
+                            type="email"
+                            name="email"
+                            className="border-none w-full outline-none text-xl md:text-2xl px-6 py-3 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
+                            placeholder="email"
+                            autoComplete="off"
+                        />
+                        <input
+                            type="password"
+                            name="password"
+                            className="border-none w-full outline-none text-xl md:text-2xl px-6 py-3 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
+                            placeholder="password"
+                            autoComplete="off"
+                        />
+                        <input
+                            type="password"
+                            name="confirm"
+                            className="border-none w-full outline-none text-xl md:text-2xl px-6 py-3 placeholder:opacity-70 text-center placeholder:font-poppy bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
+                            placeholder="confirm"
+                            autoComplete="off"
+                        />
+                        <input
+                            type="submit"
+                            value="explore"
+                            className="py-[0.50rem] md:py-[0.70rem] bg-dense w-44 md:col-span-2 text-white px-9 hover:cursor-pointer text-xl font-poppy rounded-md hover:bg-dense duration-500"
+                        />
+                    </form>
+                    <p className="text-sm text-center md:text-lg font-poppy">
+                        have an account?
+                        <Link href="/" as="/" className="underline pl-1">
+                            Log In
+                        </Link>
+                        .
+                    </p>
+                </div>
             </div>
             <Footer />
         </>
