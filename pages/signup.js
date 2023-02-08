@@ -2,9 +2,8 @@ import { faCheckCircle, faUser, faClose } from "@fortawesome/free-solid-svg-icon
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import React, { useContext } from "react";
+import React from "react";
 import { useState } from "react";
-import AppContext from "../component/AppContext";
 import Footer from "../component/footer";
 
 function CreateAccount() {
