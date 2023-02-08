@@ -12,7 +12,7 @@ function Search() {
     const { data: session } = useSession();
 
     const URL = "https://travel-advisor.p.rapidapi.com/restaurants/list-by-latlng";
-    const [places, setPlaces] = useState(data);
+    const [places, setPlaces] = useState([]);
     const [latitude, setLatitude] = useState(null);
     const [longitude, setLongitude] = useState(null);
     const [rating, setRating] = useState(0);
@@ -21,47 +21,47 @@ function Search() {
         setPlaces(data);
     }
 
-    // const options = {
-    //     params: {
-    //         latitude: latitude,
-    //         longitude: longitude,
-    //     },
-    //     headers: {
-    //         "X-RapidAPI-Key": "58a6a646e7msh85a242a8db4265fp158cddjsnae6087866e44",
-    //         "X-RapidAPI-Host": "travel-advisor.p.rapidapi.com",
-    //     },
-    // };
+    const options = {
+        params: {
+            latitude: latitude,
+            longitude: longitude,
+        },
+        headers: {
+            "X-RapidAPI-Key": "58a6a646e7msh85a242a8db4265fp158cddjsnae6087866e44",
+            "X-RapidAPI-Host": "travel-advisor.p.rapidapi.com",
+        },
+    };
 
-    // const getPlacesData = async () => {
-    //     try {
-    //         const {
-    //             data: { data },
-    //         } = await axios.get(URL, options);
-    //         return data;
-    //     } catch (error) {
-    //         console.log(error);
-    //     }
-    // };
+    const getPlacesData = async () => {
+        try {
+            const {
+                data: { data },
+            } = await axios.get(URL, options);
+            return data;
+        } catch (error) {
+            console.log(error);
+        }
+    };
 
-    // useEffect(() => {
-    //     navigator.geolocation.getCurrentPosition(
-    //         (position) => {
-    //             setLatitude(position.coords.latitude);
-    //             setLongitude(position.coords.longitude);
-    //         },
-    //         () => {
-    //             console.error("Error getting location");
-    //         }
-    //     );
-    // }, []);
+    useEffect(() => {
+        navigator.geolocation.getCurrentPosition(
+            (position) => {
+                setLatitude(position.coords.latitude);
+                setLongitude(position.coords.longitude);
+            },
+            () => {
+                console.error("Error getting location");
+            }
+        );
+    }, []);
 
-    // useEffect(() => {
-    //     if (latitude && longitude) {
-    //         getPlacesData().then((data) => {
-    //             setPlaces(data);
-    //         });
-    //     }
-    // }, [latitude, longitude]);
+    useEffect(() => {
+        if (latitude && longitude) {
+            getPlacesData().then((data) => {
+                setPlaces(data);
+            });
+        }
+    }, [latitude, longitude]);
 
     const handleRating = (count) => {
         setRating(count);
@@ -94,11 +94,11 @@ function Search() {
                                 <h1 className="font-poppy text-2xl md:text-3xl pb-3 font-bold text-center">
                                     find your favorite!
                                 </h1>
-                                <input
+                                {/* <input
                                     className="border-none outline-none w-full md:mx-w-2/4 text-lg md:text-2xl py-3 md:px-44 mb-3 md:py-4 text-center placeholder:font-poppy placeholder:opacity-80 bg-off-brand placeholder:text-dense font-poppy hover:placeholder:-translate-y-20 placeholder:duration-[0.5s]"
                                     placeholder="Fudopia, Mars"
                                     type="text"
-                                />
+                                /> */}
                                 <div className="flex flex-wrap items-center justify-center md:space-x-3 md:space-y-0 space-y-3 flex-col md:flex-row">
                                     <div className="py-3 px-6 md:py-3 md:px-9 bg-off-brand flex items-center justify-center space-x-4 rounded-md">
                                         {[1, 2, 3, 4, 5].map((count) => (
